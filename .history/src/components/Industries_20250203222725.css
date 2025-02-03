@@ -6,7 +6,7 @@
 }
 
 .industry-content {
-  margin: 0 0rem;
+  margin: 0 8rem;
 }
 
 .industries span {
@@ -28,24 +28,24 @@
   margin: 0 auto;
 }
 
-.industry-card {
+/* .industry-card {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   max-width: 300px;
-  text-align: justify;
+  text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+} */
 
-/* .industry-card {
+.industry-card {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  width: 350px;
-  text-align: justify;
-} */
+  width: 300px;
+  text-align: center;
+}
 
 .industry-card:hover {
   transform: translateY(-5px);
