@@ -36,7 +36,7 @@
 }
 
 .welcome {
-  max-width: 550px;
+  max-width: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -48,12 +48,12 @@
 }
 
 .welcome h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .h1-container {
   width: 100%; /* Ensures h2 takes full width */
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #1d70b6;
 }
@@ -68,8 +68,8 @@
 }
 
 .mid-text p {
-  font-size: 1.3rem;
-  margin: 3% 15%;
+  font-size: 1rem;
+  margin: 1% 15%;
 }
 .mid-text p span {
   color: #1d70b6;
@@ -92,7 +92,7 @@
 }
 
 .logo a img {
-  height: 100px; /* Adjust as necessary */
+  height: 80px; /* Adjust as necessary */
 }
 
 .primary-navigation {
@@ -106,28 +106,23 @@
 .nav-list {
   display: flex;
   list-style: none;
-  gap: 3rem;
-  margin: 0;
-  padding: 0;
+  gap: 1.5rem;
 }
 
 .nav-list .li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .nav-list .li a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
   padding: 10px;
   transition: color 0.3s ease;
 }
 
 .nav-link {
   text-decoration: none;
+  font-size: 15px;
   font-weight: bold;
-  font-size: larger;
 }
 
 .nav-link:hover {

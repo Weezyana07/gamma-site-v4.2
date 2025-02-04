@@ -7,13 +7,13 @@
 .services h1 {
   margin: 3rem 0;
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .service-cards {
   display: flex;
   flex-wrap: wrap; /* Enables wrapping on smaller screens */
-  gap: 3.5rem; /* Space between cards */
+  gap: 2rem; /* Space between cards */
   justify-content: center; /* Center the cards */
   margin: 0 auto; /* Center the container */
 }
@@ -23,13 +23,13 @@
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  width: 300px;
+  width: 230px;
   text-align: center;
 }
 
 .service-image {
-  width: 250px;
-  height: 176px;
+  width: 230px;
+  height: 156px;
   display: block;
   margin: 0 auto;
 }
@@ -37,7 +37,7 @@
 .service-card h3 {
   text-align: left;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   margin: 0.5rem 0;
   padding-left: 1rem;
@@ -45,7 +45,7 @@
 
 .service-card p {
   margin-top: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: justify;
   padding: 0 1rem 1rem;
 }
@@ -80,7 +80,6 @@
   
   .service-card {
     padding: 1rem;
-    width: 250px;
     text-align: center;
   }
 
@@ -108,6 +107,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
   /* Styles for tablets and small laptops */
+  
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
