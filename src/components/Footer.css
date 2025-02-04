@@ -52,3 +52,22 @@
 .social-icon:hover {
   fill: #1d70b6;
 }
+
+/* Responsive Design */
+@media (max-width: 480px) {
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer-body {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablets and small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles for desktops and large laptops */
+}

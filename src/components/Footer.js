@@ -57,7 +57,7 @@ const Footer = () => {
           +234 703 641 9054
           <br /> */}
           <p>
-            © 2024 <span className="comp">Gamma Spectre Solutions Limited</span>
+            © 2025 <span className="comp">Gamma Spectre Solutions Limited</span>
             . All rights reserved.
           </p>
         </div>

@@ -182,7 +182,17 @@ nav ul li a.active-link {
   margin: 0 auto; /* Center the container */
 }
 
-@media (max-width: 768px) {
+/* Responsive Design */
+@media (max-width: 480px) {
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 95%; /* Use more of the screen width */
+    padding: 0.5rem;
+  }
+
   .primary-navigation {
     display: none; /* Hide navigation on small screens */
   }
@@ -196,16 +206,44 @@ nav ul li a.active-link {
     flex-direction: column;
     align-items: center;
   }
-}
 
-@media (max-width: 768px) {
-  .container {
-    width: 95%; /* Use more of the screen width */
-    padding: 0.5rem;
+  .welcome {
+    max-width: 300px;
+  }
+
+  .welcome h2 {
+    font-size: 1.5rem;
+  }
+
+  .h1-container {
+    font-size: 1.8rem;
+  }
+  
+  .mid-text p {
+    font-size: 0.8rem;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0rem 2rem;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .logo a img {
+    height: 50px; /* Adjust as necessary */
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablets and small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles for desktops and large laptops */
   .container {
     width: 80%; /* Shrink the width for very large screens */
   }

@@ -49,3 +49,67 @@
   text-align: justify;
   padding: 0 1rem 1rem;
 }
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .services h1 {
+    font-size: 5rem;
+  }
+
+  .service-card {
+    padding: 1rem;
+  }
+
+  .service-title {
+    font-size: 1.3rem;
+  }
+
+  .service-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .services h1 {
+    font-size: 1.8rem;
+  }
+
+  .service-card {
+    padding: 1.2rem;
+  }
+  
+  .service-card {
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+  }
+
+  .service-image {
+    width: 200px;
+    height: 136px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .service-card h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+  }
+  
+  .service-card p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    text-align: justify;
+    padding: 0 1rem 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablets and small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles for desktops and large laptops */
+}

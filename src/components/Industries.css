@@ -83,3 +83,56 @@
   background-color: red;
   color: white;
 }
+
+/* Responsive Design */
+@media (max-width: 480px) {
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .industries {
+    padding: 2rem 1rem;
+  }
+  
+  .industries span {
+    color: #1d70b6;
+    font-size: larger;
+  }
+  
+  .industries h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .industry-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .industry-card {
+    max-width: 250px;
+  }
+
+  .industry-card h3 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .industry-card p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablets and small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles for desktops and large laptops */
+}
