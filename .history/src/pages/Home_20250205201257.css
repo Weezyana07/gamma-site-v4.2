@@ -121,8 +121,7 @@ img {
   flex-wrap: wrap;
   justify-content: left;
   position: absolute;
-  top: 40%;
-  left: 30%;
+
   transform: translate(-50%, -50%);
   z-index: 10;
 }

@@ -5,22 +5,11 @@ img {
   display: block; /* Removes extra space below images */
 }
 
-/* .container {
+.container {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
-} */
-
-.container {
-  width: 100%; /* Occupies 90% of the viewport width */
-  max-width: 1200px; /* Prevents it from getting too wide on large screens */
-  margin: 0 auto; /* Centers the container horizontally */
-  /* Adds space inside the container */
-  display: flex; /* Makes it a flex container */
-  flex-direction: column; /* Default layout for children is vertical */
-  align-items: center; /* Centers child elements horizontally */
-  gap: 5rem; /* Adds spacing between child elements */
 }
 
 .home-header {
@@ -152,11 +141,6 @@ img {
 
 /* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
-  .top-image,
-  .bottom-image {
-    max-height: 200px; /* Adjust height for small screens */
-    object-fit: cover; /* Crops the image to fit without distorting */
-  }
   .container {
     width: 90%;
     padding: 1rem;
@@ -198,11 +182,6 @@ img {
 
 /* Breakpoint: 481px to 768px (tablets and small screens) */
 @media (min-width: 481px) and (max-width: 768px) {
-  .top-image,
-  .bottom-image {
-    max-height: 300px; /* Adjust height for small screens */
-    object-fit: cover; /* Crops the image to fit without distorting */
-  }
   .container {
     width: 95%;
     padding: 1rem;
@@ -248,11 +227,6 @@ img {
 
 /* Breakpoint: 769px to 1024px (small laptops and large tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .top-image,
-  .bottom-image {
-    max-height: 400px; /* Adjust height for small screens */
-    object-fit: contain; /* Crops the image to fit without distorting */
-  }
   .container {
     width: 90%;
     padding: 1.5rem;
@@ -287,11 +261,6 @@ img {
 
 /* Breakpoint: 1025px to 1200px (desktops and large screens) */
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .top-image,
-  .bottom-image {
-    max-height: 500px; /* Adjust height for small screens */
-    object-fit: contain; /* Crops the image to fit without distorting */
-  }
   .container {
     width: 85%;
   }
@@ -318,6 +287,7 @@ img {
 @media (min-width: 1201px) {
   .container {
     width: 80%;
+    padding: 2rem;
   }
 
   .logo a img {
@@ -330,15 +300,8 @@ img {
   }
 
   .welcome {
-    max-width: 500px;
-  }
-
-  .welcome h1 {
-    font-size: 3rem;
-  }
-
-  .welcome h2 {
-    font-size: 2.5rem;
+    max-width: 400px;
+    font-size: 1.7rem;
   }
 
   .mid-text p {

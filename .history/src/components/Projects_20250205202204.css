@@ -1,47 +1,28 @@
-/* General Styles */
+/* src/components/Projects.css */
 .projects {
-  background: url("../assets/images/bg-down.png") no-repeat center center/cover;
+  background-image: url("../assets/images/bg-down.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
   padding: 4rem 2rem;
+  background-color: #fff;
   text-align: center;
-  overflow: hidden; /* Prevents overflow issues */
-  width: 100%;
 }
 
 .projects h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #3c3c3c;
   margin-bottom: 2rem;
 }
 
-/* Carousel Container */
-.carousel-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 0;
-}
-
-.react-multi-carousel-list {
-  overflow: hidden; /* Prevents the carousel from extending the screen */
-  width: 100%;
-}
-
-.react-multi-carousel-track {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Project Card Styles */
 .project-card {
-  background-color: #fff;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
-  margin: 1rem;
-  text-align: center;
+  margin: 0 1rem; /* Add margin for spacing between cards */
+  text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 90%; /* Ensures responsiveness */
-  max-width: 350px;
 }
 
 .project-card:hover {
@@ -68,6 +49,22 @@
   font-size: 1rem;
   color: #3c3c3c;
 }
+
+.carousel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.carousel .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .react-multi-carousel-list {
+  padding: 0 1rem;
+}
+
 /* Small Screens (Phones) */
 @media (max-width: 480px) {
   .projects {

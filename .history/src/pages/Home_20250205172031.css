@@ -16,7 +16,7 @@ img {
   width: 100%; /* Occupies 90% of the viewport width */
   max-width: 1200px; /* Prevents it from getting too wide on large screens */
   margin: 0 auto; /* Centers the container horizontally */
-  /* Adds space inside the container */
+  padding: 1rem; /* Adds space inside the container */
   display: flex; /* Makes it a flex container */
   flex-direction: column; /* Default layout for children is vertical */
   align-items: center; /* Centers child elements horizontally */
@@ -318,6 +318,7 @@ img {
 @media (min-width: 1201px) {
   .container {
     width: 80%;
+    padding: 2rem;
   }
 
   .logo a img {
@@ -330,15 +331,8 @@ img {
   }
 
   .welcome {
-    max-width: 500px;
-  }
-
-  .welcome h1 {
-    font-size: 3rem;
-  }
-
-  .welcome h2 {
-    font-size: 2.5rem;
+    max-width: 400px;
+    font-size: 1.7rem;
   }
 
   .mid-text p {

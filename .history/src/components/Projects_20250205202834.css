@@ -1,0 +1,138 @@
+/* General Styles */
+.projects {
+  background: url("../assets/images/bg-down.png") no-repeat center center/cover;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Carousel Styles */
+.carousel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.carousel .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .react-multi-carousel-list {
+  padding: 0 1rem;
+}
+
+/* Project Card Styles */
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-info {
+  margin-top: 1rem;
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  color: #1d70b6;
+}
+
+.project-info p {
+  font-size: 1rem;
+  color: #3c3c3c;
+}
+
+/* Responsive Design */
+
+/* Small Screens (Mobile) */
+@media (max-width: 480px) {
+  .projects {
+    padding: 3rem 1rem;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    padding: 1.2rem;
+    margin: 0.8rem;
+  }
+
+  .project-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-info p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Screens (Tablets & Small Laptops) */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .projects {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .projects h2 {
+    font-size: 2.2rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .project-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-info p {
+    font-size: 1rem;
+  }
+}
+
+/* Large Screens (Laptops & Desktops) */
+@media (min-width: 1025px) {
+  .projects {
+    padding: 4rem 3rem;
+  }
+
+  .projects h2 {
+    font-size: 2.5rem;
+  }
+
+  .project-card {
+    padding: 1.8rem;
+    margin: 1.2rem;
+  }
+
+  .project-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-info p {
+    font-size: 1rem;
+  }
+}

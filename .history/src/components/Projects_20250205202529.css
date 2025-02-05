@@ -1,16 +1,17 @@
 /* General Styles */
 .projects {
-  background: url("../assets/images/bg-down.png") no-repeat center center/cover;
+  background-image: url("../assets/images/bg-down.png");
+  background-size: cover;
+  background-position: center;
   padding: 4rem 2rem;
   text-align: center;
-  overflow: hidden; /* Prevents overflow issues */
-  width: 100%;
 }
 
 .projects h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #3c3c3c;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 /* Carousel Container */
@@ -20,28 +21,24 @@
   padding: 2rem 0;
 }
 
-.react-multi-carousel-list {
-  overflow: hidden; /* Prevents the carousel from extending the screen */
-  width: 100%;
-}
-
-.react-multi-carousel-track {
+.carousel .react-multi-carousel-item {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-/* Project Card Styles */
+.carousel .react-multi-carousel-list {
+  padding: 0 1rem;
+}
+
+/* Project Cards */
 .project-card {
-  background-color: #fff;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   margin: 1rem;
-  text-align: center;
+  text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 90%; /* Ensures responsiveness */
-  max-width: 350px;
 }
 
 .project-card:hover {
@@ -49,12 +46,14 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Project Images */
 .project-image {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
+/* Project Information */
 .project-info {
   margin-top: 1rem;
 }
@@ -62,12 +61,17 @@
 .project-info h3 {
   font-size: 1.5rem;
   color: #1d70b6;
+  font-weight: bold;
 }
 
 .project-info p {
   font-size: 1rem;
   color: #3c3c3c;
+  line-height: 1.5;
 }
+
+/* Responsive Design */
+
 /* Small Screens (Phones) */
 @media (max-width: 480px) {
   .projects {
@@ -81,7 +85,7 @@
 
   .project-card {
     padding: 1rem;
-    margin: 0.5rem; /* Adjust spacing for smaller screens */
+    margin: 0.5rem;
   }
 
   .project-info h3 {
@@ -93,7 +97,6 @@
   }
 }
 
-/* Medium Screens (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
   .projects {
     padding: 3rem 1.5rem;
@@ -101,12 +104,12 @@
 
   .projects h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
   }
 
   .project-card {
-    padding: 1.5rem;
-    margin: 1rem; /* Maintain some spacing */
+    padding: 1.2rem;
+    margin: 0.8rem;
   }
 
   .project-info h3 {
@@ -114,23 +117,23 @@
   }
 
   .project-info p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
-/* Large Screens (Small Laptops) */
+/* Large Tablets & Small Laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
   .projects {
     padding: 4rem 2rem;
   }
 
   .projects h2 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 
   .project-card {
     padding: 1.5rem;
-    margin: 1.5rem; /* Increase spacing slightly */
+    margin: 1rem;
   }
 
   .project-info h3 {
@@ -142,7 +145,7 @@
   }
 }
 
-/* Extra-Large Screens (Desktops and Large Laptops) */
+/* Desktops & Large Screens */
 @media (min-width: 1025px) and (max-width: 1200px) {
   .projects {
     padding: 4rem 3rem;
@@ -153,8 +156,8 @@
   }
 
   .project-card {
-    padding: 2rem;
-    margin: 1.5rem;
+    padding: 1.8rem;
+    margin: 1.2rem;
   }
 
   .project-info h3 {
@@ -162,11 +165,11 @@
   }
 
   .project-info p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
-/* Ultra-Wide Screens (1201px+) */
+/* Extra Large Screens */
 @media (min-width: 1201px) {
   .projects {
     padding: 5rem 4rem;
@@ -174,12 +177,11 @@
 
   .projects h2 {
     font-size: 2.8rem;
-    margin-bottom: 2.5rem;
   }
 
   .project-card {
-    padding: 2.5rem;
-    margin: 2rem; /* Generous spacing for ultra-wide screens */
+    padding: 2rem;
+    margin: 1.5rem;
   }
 
   .project-info h3 {
@@ -187,6 +189,6 @@
   }
 
   .project-info p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
