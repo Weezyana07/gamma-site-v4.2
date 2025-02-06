@@ -36,6 +36,7 @@ const services = [
 const Services = () => {
   return (
     <section className="services">
+      <div  className="container">
       <h1>What you can expect from us</h1>
       <div className="service-cards">
         {services.map((service, index) => (
@@ -49,6 +50,7 @@ const Services = () => {
             <p>{service.description}</p>
           </div>
         ))}
+      </div>
       </div>
     </section>
   );
