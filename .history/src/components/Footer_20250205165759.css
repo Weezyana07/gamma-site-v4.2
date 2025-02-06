@@ -1,0 +1,73 @@
+/* src/components/Footer.css */
+.footer-body {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 1rem;
+  color: #3c3c3c;
+}
+
+.footer-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer-body li {
+  margin: 10px 0;
+}
+
+.comp {
+  font-weight: bold;
+  color: #1d70b6;
+}
+
+.stra {
+  font-style: italic;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  fill: black;
+  transition: fill 0.3s;
+}
+
+.social-icon:hover {
+  fill: #1d70b6;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer-body {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablets and small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles for desktops and large laptops */
+}

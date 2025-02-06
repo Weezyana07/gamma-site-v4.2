@@ -1,0 +1,96 @@
+.contact-us {
+  display: flex;
+  height: 40vh;
+}
+
+.contact-left {
+  flex: 0 0 30%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #ff4c4c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.contact-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: white;
+  color: #ff4c4c;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #fff2f2;
+  color: #ff4c4c;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-content p {
+    font-size: 0.8rem;
+  }
+
+  .contact-right {
+    flex: 1;
+    background-color: #ff4c4c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    background-color: white;
+    color: #ff4c4c;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablets and small laptops */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styles for desktops and large laptops */
+}

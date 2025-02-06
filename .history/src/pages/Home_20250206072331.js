@@ -100,8 +100,8 @@ const Home = () => {
       <Industries />
       <Projects />
       <Testimonials />
-      <Contact />
-      <Footer />
+      {/* <Contact />
+      <Footer /> */}
     </div>
   );
 };
