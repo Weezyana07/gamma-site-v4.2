@@ -6,7 +6,7 @@ img {
 }
 
 .container {
-  width: 90vw;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -182,7 +182,7 @@ img {
     height: 60px;
   }
   .nav-wrapper {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
   .mobile-nav-toggle {
