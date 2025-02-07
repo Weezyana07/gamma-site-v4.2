@@ -129,9 +129,13 @@ const Home = () => {
         <div className="top-image"></div>
         <div className="mid-text">
           <p>
-            At <span>GAMMA SPECTRE</span>, we specialize in providing
+          At <span>GAMMA SPECTRE</span>, we specialize in providing
             comprehensive consultancy, information technology, and general
-            solutions tailored to meet the diverse needs of our clients.
+            solutions tailored to meet the diverse needs of our clients. With a
+            deep understanding of industry trends and technological
+            advancements, our team of experts collaborates closely with
+            businesses to unlock their full potential and drive sustainable
+            growth.
           </p>
         </div>
         <div className="bottom-image"></div>
