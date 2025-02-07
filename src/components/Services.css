@@ -53,6 +53,10 @@
 
 /* Mobile screens (max-width: 480px) */
 @media (max-width: 480px) {
+  .services {
+  text-align: center;
+  margin: 0.8rem 0;
+}
   .services h1 {
     font-size: 1.5rem;
   }
