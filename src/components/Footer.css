@@ -79,9 +79,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* =============================
-      RESPONSIVE DESIGN  
-============================= */
 
 /* ✅ Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
@@ -155,7 +152,7 @@ footer {
 }
 
 /* ✅ Extra-Large Screens (1201px and above) */
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
   .footer-body {
     padding: 40px;
     max-width: 1400px;

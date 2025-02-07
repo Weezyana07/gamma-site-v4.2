@@ -257,7 +257,7 @@ img {
 }
 
 /* Default styles for larger screens (1201px+) */
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
   .container {
     width: 70vh;
   }

@@ -1,7 +1,3 @@
-/* =============================
-      TESTIMONIALS SECTION  
-============================= */
-
 .testimonials {
   position: relative;
   padding: 4rem 2rem;
@@ -214,7 +210,7 @@
 }
 
 /* ✅ Extra-Large Screens (1201px and above) */
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
   .testimonials {
     padding: 5rem 4rem;
   }

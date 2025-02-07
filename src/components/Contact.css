@@ -177,7 +177,7 @@
 }
 
 /* ✅ Extra-Large Screens (1201px and above) */
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
   .contact-us {
     height: 55vh;
   }

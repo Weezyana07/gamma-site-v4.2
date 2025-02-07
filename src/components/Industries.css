@@ -214,7 +214,7 @@
 }
 
 /* Ultra-Wide Screens (1201px+) */
-@media (min-width: 1201px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
   .industries {
     padding: 5rem 3rem;
   }
