@@ -196,11 +196,11 @@ img {
   }
   .top-image,
   .bottom-image {
-    max-height: 40vh;
+    max-height: 35vh;
     object-fit: cover;
   }
   .bottom-image {
-    top: 40vh;
+    top: 35vh;
     height: 70vh;
   }
   .container {
@@ -283,7 +283,7 @@ img {
     width: 100%;
     text-align: center;
     z-index: 2;
-    padding: 2rem 0; /* Space around the text */
+    padding: 0.8rem 0; /* Space around the text */
   }
   /* .mid-text p {
     font-size: 0.9rem;
