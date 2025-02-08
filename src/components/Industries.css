@@ -225,7 +225,7 @@
 
   .industry-card {
     width: 22%; /* Fits as many cards as possible per row */
-    max-width: 300px;
+    max-width: 20vw;
   }
 
   .industry-image {
@@ -234,11 +234,11 @@
   }
 
   .industry-card h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .industry-card p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .read-more {

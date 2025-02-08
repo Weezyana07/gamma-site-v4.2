@@ -92,20 +92,12 @@
   }
 
   .service-cards {
-    display: flex;
-    flex-wrap: wrap; /* Enables wrapping on smaller screens */
-    gap: 1.5rem; /* Space between cards */
-    justify-content: center; /* Center the cards */
-    margin: 0 auto; /* Center the container */
-  }
+   gap: 1.5rem; /* Space between cards */
+    }
   
   .service-card {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
+   padding: 0.5rem;
     width: 35vw;
-    text-align: center;
   }
   
   .service-image {
@@ -116,18 +108,12 @@
   }
   
   .service-card h3 {
-    text-align: left;
-    margin-top: 1rem;
     font-size: 1rem;
-    font-weight: bold;
-    margin: 0.5rem 0;
     padding-left: 0.5rem;
   }
   
   .service-card p {
-    margin-top: 0.5rem;
     font-size: 0.8rem;
-    text-align: justify;
     padding: 0 0.5rem 1rem;
   }
 }
@@ -139,20 +125,12 @@
   }
 
   .service-cards {
-    display: flex;
-    flex-wrap: wrap; /* Enables wrapping on smaller screens */
     gap: 1.5rem; /* Space between cards */
-    justify-content: center; /* Center the cards */
-    margin: 0 auto; /* Center the container */
   }
   
   .service-card {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
     width: 25%;
-    text-align: center;
+    padding: 0.5rem;
   }
   
   .service-image {
@@ -163,18 +141,12 @@
   }
   
   .service-card h3 {
-    text-align: left;
-    margin-top: 1rem;
     font-size: 1rem;
-    font-weight: bold;
-    margin: 0.5rem 0;
     padding-left: 0.5rem;
   }
   
   .service-card p {
-    margin-top: 0.5rem;
     font-size: 0.8rem;
-    text-align: justify;
     padding: 0 0.5rem 1rem;
   }
 }
@@ -186,20 +158,12 @@
   }
   
   .service-cards {
-    display: flex;
-    flex-wrap: wrap; /* Enables wrapping on smaller screens */
     gap: 1.5rem; /* Space between cards */
-    justify-content: center; /* Center the cards */
-    margin: 0 auto; /* Center the container */
   }
   
   .service-card {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
     width: 17vw;
-    text-align: center;
+    padding: 0.5rem;
   }
   
   .service-image {
@@ -210,18 +174,12 @@
   }
   
   .service-card h3 {
-    text-align: left;
-    margin-top: 1rem;
     font-size: 1rem;
-    font-weight: bold;
-    margin: 0.5rem 0;
     padding-left: 0.5rem;
   }
   
   .service-card p {
-    margin-top: 0.5rem;
     font-size: 0.8rem;
-    text-align: justify;
     padding: 0 0.5rem 1rem;
   }
 }
@@ -232,22 +190,14 @@
     font-size: 2.5rem;
   }
 
-.service-cards {
-  display: flex;
-  flex-wrap: wrap; /* Enables wrapping on smaller screens */
-  gap: 1.5rem; /* Space between cards */
-  justify-content: center; /* Center the cards */
-  margin: 0 auto; /* Center the container */
-}
+  .service-cards {
+    gap: 1.5rem; /* Space between cards */
+  }
 
-.service-card {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 0.5rem;
-  width: 17vw;
-  text-align: center;
-}
+  .service-card {
+    width: 17vw;
+    padding: 0.5rem;
+  }
 
 .service-image {
   width: 200px;
@@ -257,18 +207,12 @@
 }
 
 .service-card h3 {
-  text-align: left;
-  margin-top: 1rem;
   font-size: 1.1rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
   padding-left: 0.5rem;
 }
 
 .service-card p {
-  margin-top: 0.5rem;
   font-size: 0.9rem;
-  text-align: justify;
   padding: 0 0.5rem 1rem;
 }
 }
