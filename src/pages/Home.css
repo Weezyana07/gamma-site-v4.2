@@ -388,13 +388,7 @@ img {
   .container {
     width: 90%;
   }
-  .logo a img {
-    height: 70px;
-  }
-  .nav-wrapper {
-    flex-direction: row;
-    align-items: center;
-  }
+ 
   .welcome {
     max-width: 350px;
     top: 220px;
