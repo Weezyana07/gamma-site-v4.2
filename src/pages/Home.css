@@ -350,6 +350,7 @@ img {
     padding-left: 2rem;
   }
   .hero-title {
+    width: 100%;
     font-size: 1.6rem;
   }
 
