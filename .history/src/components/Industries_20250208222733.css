@@ -1,7 +1,8 @@
 .industries {
-  padding: 5rem 3rem;
+  padding: 4rem 2rem;
   background-color: #f9f9f9;
   text-align: center;
+  color: red;
 }
 
 .industry-content {
@@ -15,7 +16,7 @@
 }
 
 .industries h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
 }
@@ -32,8 +33,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
-  width: 30%;
-  max-width: 20vw;
+  width: 280px;
   text-align: justify;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -44,30 +44,29 @@
 }
 
 .industry-image {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
 .industry-card h3 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
 }
 
 .industry-card p {
   margin-top: 0.5rem;
-  font-size: 1rem;
-  text-align: left;
+  font-size: 0.9rem;
+  text-align: justify;
 }
 
 .read-more {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  font-size: 1.2;
   color: #1d70b6;
   text-decoration: none;
   font-weight: bold;
