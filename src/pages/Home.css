@@ -260,15 +260,26 @@ img {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   }
   .welcome {
-    max-width: 300px;
-    font-size: 1.2rem;
+    max-width: 200px;
+    font-size: 1.5rem;
+    top: 140px;
+    left: 7rem;
+  }
+  .hero-title {
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+    max-width: 180px;
   }
   /* .mid-text{
     top: 40vh;
   } */
   .mid-text {
     position: absolute;
-    top: 170px; /* Positioned right after the top image */
+    top: 35vh; /* Positioned right after the top image */
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -518,9 +529,20 @@ img {
     max-width: 500px;
   }
   .hero-title {
-    font-size: 3rem;
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    max-width: 400px;
+  }
+
+  .mid-text {
+    top: 65vh;
   }
   .mid-text p {
     font-size: 1.1rem;
+    margin: 3% 10%;
   }
 }
