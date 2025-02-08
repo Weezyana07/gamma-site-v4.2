@@ -50,64 +50,110 @@ img {
 }
 
 .nav-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
   justify-content: space-between;
-  position: relative;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
   z-index: 100;
 }
 
-.logo a img {
+.sticky-nav {
+  background: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
   height: 80px;
+  transition: height 0.3s ease-in-out;
 }
 
-.primary-navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.nav-list {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
+.logo-small {
+  height: 40px;
 }
 
 .mobile-nav-toggle {
   display: none;
   background: none;
   border: none;
-  font-size: 1.8rem;
+  cursor: pointer;
 }
 
-.mobile-nav-toggle[aria-expanded="true"] + .primary-navigation {
+.icon-hamburger {
+  width: 30px;
+}
+
+.primary-navigation {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  gap: 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+
+/* Dropdown Menu */
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  top: 40px;
+  left: 0;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-container:hover .dropdown {
+  display: block;
 }
 
 .welcome {
-  max-width: 400px;
-  font-size: 1.5rem;
+  max-width: 650px;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   z-index: 10;
 }
 
-.welcome h1 {
-  font-size: 2rem;
+.hero-title {
+  width: 100%; /* Ensures h2 takes full width */
+  font-size: 4rem;
   font-weight: bold;
   color: #1d70b6;
 }
 
-.mid-text {
+.hero-subtitle {
+  font-size: 3.3rem;
+}
+
+/* .mid-text {
   position: absolute;
   top: 70vh;
   width: 100%;
@@ -120,6 +166,20 @@ img {
   font-size: 1.2rem;
   margin: 1% 15%;
   padding: 1.5rem;
+} */
+
+.mid-text {
+  position: absolute;
+  top: 70vh; /* Positioned right after the top image */
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  padding: 2rem 0; /* Space around the text */
+}
+
+.mid-text p {
+  font-size: 1.3rem;
+  margin: 3% 15%;
 }
 
 .mid-text p span {
@@ -131,7 +191,7 @@ img {
   .home-header {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     overflow: hidden;
   }
   .top-image,
@@ -141,7 +201,7 @@ img {
   }
   .bottom-image {
     top: 40vh;
-    height: 20vh;
+    height: 70vh;
   }
   .container {
     width: 95%;
@@ -151,26 +211,78 @@ img {
     height: 50px;
   }
   .nav-wrapper {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
   }
   .primary-navigation {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .primary-navigation.open {
+    display: flex;
   }
   .mobile-nav-toggle {
     display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .nav-list {
+    list-style: none;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
+  }
+
+  .dropdown-container {
+    position: relative;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 40px;
+    left: 0;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   }
   .welcome {
     max-width: 300px;
     font-size: 1.2rem;
   }
-  .mid-text{
+  /* .mid-text{
     top: 40vh;
+  } */
+  .mid-text {
+    position: absolute;
+    top: 170px; /* Positioned right after the top image */
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    padding: 2rem 0; /* Space around the text */
   }
-  .mid-text p {
+  /* .mid-text p {
     font-size: 0.9rem;
     padding: 0 1rem;
     margin: 1% 1%;
+  } */
+  .mid-text p {
+    font-size: 0.9rem;
+    margin: 1% 5%;
+    padding: 0.2rem;
   }
 }
 
@@ -201,25 +313,86 @@ img {
     height: 60px;
   }
   .nav-wrapper {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+  }.primary-navigation {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
   }
+
+  .primary-navigation.open {
+    display: flex;
+  }
+
   .mobile-nav-toggle {
     display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
+
+  .nav-list {
+    list-style: none;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
+  }
+
+  .dropdown-container {
+    position: relative;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    top: 40px;
+    left: 0;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-container:hover .dropdown {
+    display: block;
+  }
+
   .welcome {
     max-width: 320px;
-    font-size: 1.4rem;
+    padding-left: 2rem;
+  }
+  .hero-title {
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 1.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+    max-width: 260px;
   }
   .mid-text{
-    top: 50vh;
+    top: 47vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    padding: 2rem 0; /* Space around the text */
   }
   .mid-text p {
     font-size: 0.8rem;
     margin: 1% 5%;
     padding: 0.2rem;
-
   }
+ 
 }
 
 /* Breakpoint: 769px to 1024px (small laptops and large tablets) */
@@ -248,11 +421,21 @@ img {
     height: 70px;
   }
   .nav-wrapper {
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
   }
   .welcome {
     max-width: 350px;
-    font-size: 1.5rem;
+    top: 220px;
+  }
+  .hero-title {
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+    max-width: 280px;
   }
   .mid-text{
     top: 60vh;
@@ -260,7 +443,61 @@ img {
   .mid-text p {
     font-size: 1rem;
     margin: 1% 10%;
+    
+  }
+}
 
+/* Breakpoint: 1025px to 1200px (desktops and large screens) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .home-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #f8f9fa;
+  }
+
+  .top-image,
+  .bottom-image {
+    max-height: 70vh;
+    object-fit: cover;
+  }
+
+  .bottom-image {
+    top: 70vh;
+    height: 30vh;
+  }
+
+  .container {
+    width: 85%;
+  }
+
+  .logo a img {
+    height: 75px;
+  }
+
+  .mid-text {
+    top: 65vh;
+  }
+
+  .mid-text p {
+    font-size: 1rem;
+    margin: 3% 10%;
+  }
+
+  .welcome {
+    max-width: 400px;
+    top: 290px;
+  }
+
+  .hero-title {
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    max-width: 600px;
   }
 }
 
@@ -280,7 +517,7 @@ img {
   .welcome {
     max-width: 500px;
   }
-  .welcome h1 {
+  .hero-title {
     font-size: 3rem;
   }
   .mid-text p {

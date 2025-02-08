@@ -74,7 +74,6 @@
 
   .service-image {
     width: 100%; /* Full width of the card */
-    height: 50vh; /* Maintains aspect ratio */
   }
 
   .service-card h3 {
