@@ -20,6 +20,9 @@ footer {
   margin: 0 1rem;
   min-width: 220px;
 }
+.bold {
+  font-weight: bold;
+}
 
 .footer-section p {
   font-size: 1rem;

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Industries from "../components/Industries";
 import Services from "../components/Services";
 import Projects from "../components/Projects";
-import Testimonials from "../components/Clientele";
+import Clientele from "../components/Clientele";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "./Home.css";
@@ -111,7 +111,7 @@ const Home = () => {
       <Services />
       <Industries />
       <Projects />
-      <Testimonials />
+      <Clientele />
       <Contact />
       <Footer />
     </div>
