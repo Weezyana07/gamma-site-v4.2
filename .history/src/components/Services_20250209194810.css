@@ -5,7 +5,7 @@
 
 .services h1 {
   margin: 3rem 0;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 3rem;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .service-image {
-  width: 250px;
+  width: 100px;
   height: 176px;
   display: block;
   margin: 0 auto;

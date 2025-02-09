@@ -9,7 +9,6 @@
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  font-weight: bold;
   color: #333;
 }
 
@@ -33,16 +32,16 @@
 
 .service-text p {
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: justify;
   color: #555;
 }
 
 .service-text h3 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  color: #1d70b6;
-}
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #1d70b6;
+  }
 
 .service-text ul {
   list-style: none;
@@ -51,7 +50,7 @@
 
 .service-text ul li {
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #333;
 }

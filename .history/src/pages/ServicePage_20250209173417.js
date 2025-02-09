@@ -17,22 +17,18 @@ const Services = () => {
         <div className="content-container">
           {/* Text and Image Section */}
           <div className="text-and-image">
-            <div className="text-container">
-              <div className="text-section">
-                <h1 className="main-title">Empowering Your Success:</h1>
-                <h2 className="subtitle">
-                  Explore Our Comprehensive Services Today!
-                </h2>
-              </div>
+            <div className="text-section">
+              <h1 className="main-title">Empowering Your Success:</h1>
+              <h2 className="subtitle">
+                Explore Our Comprehensive Services Today!
+              </h2>
             </div>
-            <div className="img-container">
-              <div className="image-section">
-                <img
-                  src="images/person.png"
-                  alt="Professional person"
-                  className="person-image"
-                />
-              </div>
+            <div className="image-section">
+              <img
+                src="src/assets/images/person.png"
+                alt="Professional person"
+                className="person-image"
+              />
             </div>
           </div>
 

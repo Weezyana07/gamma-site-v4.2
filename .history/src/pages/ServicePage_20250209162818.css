@@ -1,0 +1,122 @@
+.services-page {
+  padding: 0 2rem;
+}
+
+img {
+  max-width: 100%; /* Ensures images never exceed the container width */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes extra space below images */
+}
+
+.home-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("/src/assets/images/bgService.jpg");
+  background-size: cover;
+}
+
+.home-welcome {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.img-right {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("/src/assets/images/person.png");
+  background-size: cover;
+  z-index: 100;
+}
+.welcome {
+  max-width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+}
+
+.hero-title {
+  width: 100%; /* Ensures h2 takes full width */
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1d70b6;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+}
+
+/* .mid-text {
+    position: absolute;
+    top: 70vh;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    padding: 1rem 0;
+  }
+  
+  .mid-text p {
+    font-size: 1.2rem;
+    margin: 1% 15%;
+    padding: 1.5rem;
+  } */
+
+.mid-text {
+  position: absolute;
+  top: 70vh; /* Positioned right after the top image */
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  padding: 2rem 0; /* Space around the text */
+}
+
+.mid-text p {
+  font-size: 1.3rem;
+  margin: 3% 15%;
+}
+
+.mid-text p span {
+  color: #1d70b6;
+}
+
+/* Breakpoint: Up to 480px (mobile phones) */
+@media (max-width: 480px) {
+}
+
+/* Breakpoint: 481px to 768px (tablets and small screens) */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+/* Breakpoint: 769px to 1024px (small laptops and large tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .services-page {
+    padding: 0 6rem;
+  }
+}
+
+/* Breakpoint: 1025px to 1200px (desktops and large screens) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .services-page {
+    padding: 0 8rem;
+  }
+  .hero-title {
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+/* Default styles for larger screens (1201px+) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+}

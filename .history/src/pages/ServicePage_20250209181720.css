@@ -1,10 +1,5 @@
 .services-page {
-  padding: 0 8rem;
-}
-img {
-  max-width: 100%; /* Ensures images never exceed the container width */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Removes extra space below images */
+  padding: 0 2rem;
 }
 
 /* Service Header Section */
@@ -24,20 +19,13 @@ img {
 .content-container {
   width: 90%;
   max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
 /* Text and Image Section */
 .text-and-image {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
-  width: 100%;
+  justify-content: space-between;
 }
 
 .text-container {
@@ -46,8 +34,6 @@ img {
 }
 
 .text-section {
-  flex: 1;
-  max-width: 600px;
   text-align: left;
 }
 
@@ -65,7 +51,6 @@ img {
 
 .img-container {
   flex: 1;
-  max-width: 1000px;
   display: flex;
   justify-content: center;
 }
@@ -80,14 +65,15 @@ img {
 .description-section {
   position: absolute;
   top: 80vh;
+  width: 100%;
   text-align: center;
-  align-items: center;
 }
 
 .description {
   font-size: 1.2rem;
   line-height: 1.6;
-  margin: 0 10rem;
+  margin: 0 auto;
+  max-width: 800px;
   color: #555;
 }
 
@@ -95,9 +81,10 @@ img {
   color: #1d70b6;
   font-weight: bold;
 }
+
 /* Responsive Design */
 
-/* Breakpoint: Up to 480px (mobile phones) */
+/* Mobile (up to 480px) */
 @media (max-width: 480px) {
   .content-container {
     flex-direction: column;
@@ -113,9 +100,6 @@ img {
     text-align: center;
     margin-top: 1rem;
   }
-  .description {
-    margin: 0 1rem;
-  }
 }
 
 /* Tablets (481px to 768px) */
@@ -130,32 +114,6 @@ img {
 
   .description {
     font-size: 0.95rem;
-    margin: 0 2rem;
-  }
-  .service-section {
-    padding: 1rem;
-  }
-
-  .service-section h2 {
-    font-size: 1.5rem;
-  }
-
-  .service-content {
-    flex-direction: column;
-  }
-
-  .service-img {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .service-text {
-    max-width: 100%;
-  }
-
-  .service-text p,
-  .service-text ul li {
-    font-size: 0.9rem;
   }
 }
 
@@ -164,47 +122,11 @@ img {
   .main-title {
     font-size: 2rem;
   }
-  .description {
-    margin: 0 4rem;
-  }
-  .service-content {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .service-img {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
-
-  .service-text {
-    margin-top: 1rem;
-  }
-}
-
-/* Breakpoint: 1025px to 1200px (desktops and large screens) */
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .service-content {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .service-img {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
-
-  .service-text {
-    margin-top: 0;
-  }
 }
 
 /* Large Screens (1201px and above) */
-@media (min-width: 1201px) and (max-width: 1400px) {
+@media (min-width: 1201px) {
   .content-container {
     padding: 2rem;
-  }
-  .description {
-    margin: 0 5rem;
   }
 }

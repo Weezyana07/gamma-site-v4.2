@@ -15,29 +15,11 @@ const Services = () => {
       <Header />
       <div className="service-header">
         <div className="content-container">
-          {/* Text and Image Section */}
-          <div className="text-and-image">
-            <div className="text-container">
-              <div className="text-section">
-                <h1 className="main-title">Empowering Your Success:</h1>
-                <h2 className="subtitle">
-                  Explore Our Comprehensive Services Today!
-                </h2>
-              </div>
-            </div>
-            <div className="img-container">
-              <div className="image-section">
-                <img
-                  src="images/person.png"
-                  alt="Professional person"
-                  className="person-image"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Description Section */}
-          <div className="description-section">
+          <div className="text-section">
+            <h1 className="main-title">Empowering Your Success:</h1>
+            <h2 className="subtitle">
+              Explore Our Comprehensive Services Today!
+            </h2>
             <p className="description">
               At <span className="highlight">GAMMA SPECTRE</span>, we pride
               ourselves on delivering exceptional services tailored to meet your
@@ -46,6 +28,13 @@ const Services = () => {
               you're a small startup or a large corporation, we have the
               expertise and resources to support you every step of the way.
             </p>
+          </div>
+          <div className="image-section">
+            <img
+              src="/src/assets/images/person.png"
+              alt="Professional person"
+              className="person-image"
+            />
           </div>
         </div>
       </div>

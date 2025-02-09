@@ -1,0 +1,121 @@
+.services-page {
+  padding: 0 2rem;
+}
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Container for the service header */
+.service-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+/* Content container for text and image */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Text section styles */
+.text-section {
+  flex: 1;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  color: #1d70b6;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.highlight {
+  color: #1d70b6;
+  font-weight: bold;
+}
+
+/* Image section styles */
+.image-section {
+  flex: 1;
+  text-align: right;
+}
+
+.person-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+
+/* Mobile (up to 480px) */
+@media (max-width: 480px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-section {
+    max-width: 100%;
+  }
+
+  .image-section {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .main-title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-title {
+    font-size: 2rem;
+  }
+}
+
+/* Large Screens (1201px and above) */
+@media (min-width: 1201px) {
+  .content-container {
+    padding: 2rem;
+  }
+}
