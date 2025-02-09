@@ -32,16 +32,16 @@ img {
   background-repeat: no-repeat;
 }
 
-.top-image {
+/* .top-image {
   top: 0;
   background-image: url("/public/images/home.jpg");
 }
 
 .bottom-image {
-  top: 70vh;
+  top: 70vh; 
   background-image: url("/public/images/bgService.jpg");
   max-height: 30%;
-}
+} */
 
 .welcome {
   max-width: 650px;

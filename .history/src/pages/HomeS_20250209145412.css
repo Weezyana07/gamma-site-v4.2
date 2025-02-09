@@ -1,8 +1,8 @@
 /* Default styles for 1201px+ */
 img {
-  max-width: 100%; /* Ensures images never exceed the container width */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Removes extra space below images */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .container {

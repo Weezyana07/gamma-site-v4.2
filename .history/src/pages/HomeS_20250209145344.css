@@ -38,7 +38,7 @@ img {
 }
 
 .bottom-image {
-  top: 70vh;
+  top: 70vh; /* Ensures it follows exactly after .top-image */
   background-image: url("/public/images/bgService.jpg");
   max-height: 30%;
 }
@@ -59,7 +59,7 @@ img {
   width: 100%; /* Ensures h2 takes full width */
   font-size: 4rem;
   font-weight: bold;
-  color: #1d70b6;
+  color: red;
 }
 
 .hero-subtitle {

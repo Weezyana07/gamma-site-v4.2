@@ -38,7 +38,7 @@ img {
 }
 
 .bottom-image {
-  top: 70vh;
+  top: 70vh; /* Ensures it follows exactly after .top-image */
   background-image: url("/public/images/bgService.jpg");
   max-height: 30%;
 }
@@ -270,7 +270,7 @@ img {
     font-size: 1.3rem;
     max-width: 260px;
   }
-  .mid-text {
+  .mid-text{
     top: 47vh;
     padding: 2rem 0; /* Space around the text */
   }
@@ -279,6 +279,7 @@ img {
     margin: 1% 5%;
     padding: 0.2rem;
   }
+ 
 }
 
 /* Breakpoint: 769px to 1024px (small laptops and large tablets) */
@@ -300,7 +301,7 @@ img {
   .container {
     width: 90%;
   }
-
+ 
   .welcome {
     max-width: 350px;
     top: 220px;
@@ -314,12 +315,13 @@ img {
     font-size: 1.6rem;
     max-width: 280px;
   }
-  .mid-text {
+  .mid-text{
     top: 60vh;
   }
   .mid-text p {
     font-size: 1rem;
     margin: 1% 10%;
+    
   }
 }
 

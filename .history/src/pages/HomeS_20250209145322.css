@@ -38,7 +38,7 @@ img {
 }
 
 .bottom-image {
-  top: 70vh;
+  top: 70vh; /* Ensures it follows exactly after .top-image */
   background-image: url("/public/images/bgService.jpg");
   max-height: 30%;
 }
