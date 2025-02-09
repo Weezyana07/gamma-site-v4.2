@@ -1,11 +1,9 @@
 // src/pages/Services.js
 import React from "react";
 import ServiceSection from "../components/ServiceSection";
-import consultancyImg from "../assets/images/consul.jpg";
-import itImg from "../assets/images/telecom.jpg";
+import consultancyImg from "../assets/images/contact.jpg";
+import itImg from "../assets/images/contact.jpg";
 import constructionImg from "../assets/images/cons.jpg";
-import manufacturingImg from "../assets/images/manufact.webp";
-import generalImg from "../assets/images/contract.webp";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -89,7 +87,7 @@ const Services = () => {
       />
       <ServiceSection
         title="Manufacturing Division"
-        imgSrc={manufacturingImg}
+        imgSrc={itImg}
         description="Gamma Spectre's Manufacturing Division is a cornerstone of our company, specializing in the production of a wide range of products. We operate state-of-the-art facilities that are dedicated to precision manufacturing, quality control, and innovation. "
         services={[
           "Advanced Technological Equipment",
@@ -101,7 +99,7 @@ const Services = () => {
       />
       <ServiceSection
         title="General Contract Division"
-        imgSrc={generalImg}
+        imgSrc={constructionImg}
         description="Gamma Spectre's General Contract Division is committed to delivering comprehensive general contracting services. We offer project management, procurement, and execution for a wide range of projects across diverse sectors. "
         services={[
           "Project Management",
