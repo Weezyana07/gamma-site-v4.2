@@ -1,0 +1,25 @@
+.services-page {
+    padding: 0 2rem;
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .services-page {
+      padding: 0 6rem;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 1025px) {
+    .services-page {
+      padding: 0 8rem;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 767px) {
+    .services-page {
+      padding: 0 1rem;
+    }
+  }
+  
