@@ -99,12 +99,6 @@ img {
 
 /* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
-  .services-page {
-    padding: 0 1rem;
-  }
-  .service-header {
-    height: 70vh;
-  }
   .content-container {
     flex-direction: column;
     align-items: center;
@@ -115,12 +109,6 @@ img {
     max-width: 1000px;
     display: none;
     justify-content: center;
-  }
-  .description-section {
-    position: absolute;
-    top: 50vh;
-    text-align: center;
-    align-items: center;
   }
 
   .text-section {
