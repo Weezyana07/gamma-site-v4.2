@@ -7,7 +7,7 @@ import Clientele from "../components/Clientele";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import "./Home.css";
+import "./HomePage.css";
 
 const Home = () => {
   return (

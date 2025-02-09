@@ -7,14 +7,22 @@ import constructionImg from "../assets/images/contact.jpg";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import "./HomeS.css";
 import "./ServicePage.css";
 
 const Services = () => {
   return (
     <div className="services-page">
+        <Header />
       <div className="home-header">
-        <div className="top-image"></div>
+        <div className="home-welcome">
+          <div className="welcome">
+            <h1 className="hero-title">Empowering Your Success:</h1>
+            <h2 className="hero-subtitle">
+              Explore Our Comprehensive Services Today!
+            </h2>
+          </div>
+          <div className="img-right"></div>
+        </div>
         <div className="mid-text">
           <p>
             At <span>GAMMA SPECTRE</span>, we pride ourselves on delivering
@@ -24,14 +32,6 @@ const Services = () => {
             startup or a large corporation, we have the expertise and resources
             to support you every step of the way.
           </p>
-        </div>
-        <div className="bottom-image"></div>
-        <Header />
-        <div className="welcome">
-          <h1 className="hero-title">Empowering Your Success:</h1>
-          <h2 className="hero-subtitle">
-            Explore Our Comprehensive Services Today!
-          </h2>
         </div>
       </div>
       <ServiceSection
