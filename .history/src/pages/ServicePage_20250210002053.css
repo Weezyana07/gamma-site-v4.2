@@ -186,20 +186,11 @@ img {
 
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .services-page {
-    padding: 0 1rem;
-  }
-  .service-header {
-    height: 80vh;
-  }
-  .description-section {
-    top: 59vh;
-  }
   .main-title {
     font-size: 2rem;
   }
   .description {
-    margin: 0 2rem;
+    margin: 0 4rem;
   }
   .service-content {
     flex-direction: row;
@@ -207,7 +198,6 @@ img {
   }
 
   .service-img {
-    width: 50%;
     margin-right: 2rem;
     margin-bottom: 0;
   }
@@ -219,20 +209,12 @@ img {
 
 /* Breakpoint: 1025px to 1200px (desktops and large screens) */
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .services-page {
-    padding: 0 1rem;
-  }
   .service-content {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .description {
-    margin: 0 2rem;
-  }
-
   .service-img {
-    width: 50%;
     margin-right: 2rem;
     margin-bottom: 0;
   }

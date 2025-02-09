@@ -227,10 +227,6 @@ img {
     align-items: flex-start;
   }
 
-  .description {
-    margin: 0 2rem;
-  }
-
   .service-img {
     width: 50%;
     margin-right: 2rem;
