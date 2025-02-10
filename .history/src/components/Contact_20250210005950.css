@@ -1,0 +1,205 @@
+.contact-us {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+}
+
+/* Left Side - Image Background */
+.contact-left {
+  flex: 0 0 40%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Right Side - Content */
+.contact-right {
+  flex: 1;
+  background-color: #ff4c4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.contact-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: white;
+  color: #ff4c4c;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #ffe5e5;
+  color: #ff4c4c;
+}
+
+/* ✅ Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .contact-us {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact-left {
+    flex: 1;
+    height: 30vh;
+  }
+
+  .contact-right {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .contact-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact-content p {
+    font-size: 0.9rem;
+  }
+
+  .contact-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* ✅ Smaller Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact-us {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact-left {
+    flex: 1;
+    height: 35vh;
+  }
+
+  .contact-right {
+    padding: 2.5rem;
+    text-align: center;
+  }
+
+  .contact-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-content p {
+    font-size: 1rem;
+  }
+
+  .contact-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* ✅ Medium Tablets & Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-us {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .contact-left {
+    flex: 0 0 40%;
+    height: 45vh;
+  }
+
+  .contact-right {
+    flex: 1;
+    padding: 3rem;
+  }
+
+  .contact-content h2 {
+    font-size: 1.9rem;
+  }
+
+  .contact-content p {
+    font-size: 1rem;
+  }
+
+  .contact-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.8rem;
+  }
+}
+
+/* ✅ Large Laptops & Desktops (1025px to 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .contact-us {
+    height: 50vh;
+  }
+
+  .contact-left {
+    flex: 0 0 35%;
+  }
+
+  .contact-right {
+    padding: 3.5rem;
+  }
+
+  .contact-content h2 {
+    font-size: 2rem;
+  }
+
+  .contact-content p {
+    font-size: 1.1rem;
+  }
+
+  .contact-button {
+    font-size: 1.1rem;
+    padding: 1rem 2.2rem;
+  }
+}
+
+/* ✅ Extra-Large Screens (1201px and above) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .contact-us {
+    height: 55vh;
+  }
+
+  .contact-left {
+    flex: 0 0 40%;
+  }
+
+  .contact-right {
+    padding: 4rem;
+  }
+
+  .contact-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact-content p {
+    font-size: 1.2rem;
+  }
+
+  .contact-button {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.5rem;
+  }
+}
