@@ -39,7 +39,7 @@ const Contact = () => {
         <h2>Find Us Here</h2>
         <iframe
           title="Google Map"
-          src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=123+Placeholder+St,+Lagos,+Nigeria"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.865564644197!2d7.4597847736736975!3d9.076009788254057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ae720cfa3f3%3A0x40f56124776d10ef!2s15%20Bujumbura%20St%2C%20Wuse%2C%20Abuja%20904101%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1739209899982!5m2!1sen!2sng"
           width="100%"
           height="300"
           style={{ border: 0 }}
@@ -47,7 +47,6 @@ const Contact = () => {
           loading="lazy"
         ></iframe>
       </div>
-
       {/* Social Media Links */}
       <div className="social-media">
         <h2>Connect With Us</h2>
