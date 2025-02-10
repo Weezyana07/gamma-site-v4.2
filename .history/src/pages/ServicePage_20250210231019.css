@@ -1,12 +1,6 @@
-/* General Styles */
-.about-container {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  color: #333;
-  max-width: 1200px;
-  margin: 0 auto;
+.services-page {
+  padding: 0 8rem;
 }
-
 img {
   max-width: 100%; /* Ensures images never exceed the container width */
   height: auto; /* Maintains aspect ratio */
@@ -14,7 +8,7 @@ img {
 }
 
 /* Service Header Section */
-.about-header {
+.service-header {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -27,7 +21,7 @@ img {
 }
 
 /* Content Container */
-.about-container {
+.content-container {
   width: 90%;
   max-width: 1200px;
   display: flex;
@@ -37,7 +31,7 @@ img {
 }
 
 /* Text and Image Section */
-.about-text-and-image {
+.text-and-image {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -46,249 +40,240 @@ img {
   width: 100%;
 }
 
-.about-container {
+.text-container {
   flex: 1;
   padding-right: 20px;
 }
 
-.about-text-section {
+.text-section {
   flex: 1;
   max-width: 600px;
   text-align: left;
 }
 
-.about-title {
+.main-title {
   font-size: 3rem;
   color: #1d70b6;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
-.about-subtitle {
+.subtitle {
   font-size: 1.5rem;
   color: #333;
 }
 
-.about-img-container {
+.img-container {
   flex: 1;
   max-width: 1000px;
   display: flex;
   justify-content: center;
 }
 
-.about-person-image {
+.person-image {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
 /* Description Section */
-.about-description-section {
+.description-section {
   position: absolute;
   top: 80vh;
   text-align: center;
   align-items: center;
 }
 
-.about-description {
+.description {
   font-size: 1.2rem;
   margin: 0 10rem;
 }
 
-.about-description .highlight {
+.description .highlight {
   color: #1d70b6;
   font-weight: bold;
 }
+/* Responsive Design */
 
-/* Intro Section */
-.intro {
-  margin-bottom: 40px;
-}
-
-.intro p {
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-/* Mission and Vision Section */
-.mission-vision {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.mission-vision > div {
-  flex: 1;
-  background: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-/* Core Values Section */
-.core-values {
-  margin-bottom: 40px;
-}
-
-.values-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.value {
-  text-align: center;
-  padding: 20px;
-  background: #f5f5f5;
-  border-radius: 10px;
-}
-
-.icon-placeholder {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-/* Team Section */
-.team {
-  margin-bottom: 40px;
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  text-align: center;
-}
-
-.team-photo-placeholder {
-  background: #ddd;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 0 auto 10px;
-}
-
-/* Responsive Breakpoints */
+/* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
-  .about-header {
+  .services-page {
+    padding: 0 1rem;
+  }
+  .service-header {
     height: 75vh;
   }
-  .about-title {
+  .main-title {
     font-size: 2rem;
   }
-  .about-subtitle {
+  .subtitle {
     font-size: 1.3rem;
   }
-  .about-container {
+  .content-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .about-img-container {
+  .img-container {
     display: none;
   }
-  .about-description-section {
+  .description-section {
     top: 50vh;
   }
-  .about-description {
+  .description {
     font-size: 0.9rem;
-    margin: 0 1rem;
   }
 
-  .about-text-section {
+  .text-section {
     max-width: 100%;
   }
 
-  .about-image-section {
+  .image-section {
     text-align: center;
     margin-top: 1rem;
   }
-  .mission-vision {
-    flex-direction: column;
+  .description {
+    margin: 0 1rem;
   }
 }
 
+/* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-  .values-grid {
-    grid-template-columns: 1fr 1fr;
+  .services-page {
+    padding: 0 1rem;
   }
-
-  .about-header {
+  .service-header {
     height: 84vh;
   }
-  .about-description-section {
+  .description-section {
     top: 60vh;
   }
 
-  .about-title {
+  .main-title {
     font-size: 1.8rem;
   }
 
-  .about-subtitle {
+  .subtitle {
     font-size: 1.2rem;
   }
 
-  .about-description {
+  .description {
     font-size: 0.9rem;
     margin: 0 2rem;
   }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .team-grid {
-    grid-template-columns: 1fr 1fr;
+  .service-section {
+    padding: 1rem;
   }
 
-  .about-header {
+  .service-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .service-content {
+    flex-direction: column;
+  }
+
+  .service-img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .service-text {
+    max-width: 100%;
+  }
+
+  .service-text p,
+  .service-text ul li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .services-page {
+    padding: 0 1rem;
+  }
+  .service-header {
     height: 80vh;
   }
-  .about-description-section {
+  .description-section {
     top: 59vh;
   }
-  .about-title {
+  .main-title {
     font-size: 2rem;
   }
-  .about-description {
+  .description {
     margin: 0 2rem;
     font-size: 1rem;
   }
+  .service-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .service-img {
+    width: 50%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .service-text {
+    margin-top: 1rem;
+  }
 }
 
+/* Breakpoint: 1025px to 1200px (desktops and large screens) */
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .mission-vision {
-    gap: 10px;
+  .services-page {
+    padding: 0 1rem;
   }
-  .about-description {
+  .service-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .description {
     margin: 0 2rem;
     font-size: 1rem;
+    color: red;
+  }
+
+  .service-img {
+    width: 50%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .service-text {
+    margin-top: 0;
   }
 }
 
+/* Large Screens (1201px and above) */
 @media (min-width: 1201px) and (max-width: 1400px) {
-  .core-values {
-    padding: 0 10px;
+  .content-container {
+    padding: 2rem;
   }
-  .about-description {
+  .description {
     margin: 0 5rem;
     font-size: 1rem;
   }
 
-  .about-title {
+  .main-title {
     font-size: 2.5rem;
     color: #1d70b6;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
 
-  .about-person-image {
+  .person-image {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
   }
 
   /* Description Section */
-  .about-description-section {
+  .description-section {
     position: absolute;
     top: 80vh;
     text-align: center;

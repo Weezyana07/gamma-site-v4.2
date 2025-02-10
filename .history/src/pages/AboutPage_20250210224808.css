@@ -171,39 +171,6 @@ img {
 
 /* Responsive Breakpoints */
 @media (max-width: 480px) {
-  .about-header {
-    height: 75vh;
-  }
-  .about-title {
-    font-size: 2rem;
-  }
-  .about-subtitle {
-    font-size: 1.3rem;
-  }
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .about-img-container {
-    display: none;
-  }
-  .about-description-section {
-    top: 50vh;
-  }
-  .about-description {
-    font-size: 0.9rem;
-    margin: 0 1rem;
-  }
-
-  .about-text-section {
-    max-width: 100%;
-  }
-
-  .about-image-section {
-    text-align: center;
-    margin-top: 1rem;
-  }
   .mission-vision {
     flex-direction: column;
   }
@@ -213,45 +180,11 @@ img {
   .values-grid {
     grid-template-columns: 1fr 1fr;
   }
-
-  .about-header {
-    height: 84vh;
-  }
-  .about-description-section {
-    top: 60vh;
-  }
-
-  .about-title {
-    font-size: 1.8rem;
-  }
-
-  .about-subtitle {
-    font-size: 1.2rem;
-  }
-
-  .about-description {
-    font-size: 0.9rem;
-    margin: 0 2rem;
-  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .team-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .about-header {
-    height: 80vh;
-  }
-  .about-description-section {
-    top: 59vh;
-  }
-  .about-title {
-    font-size: 2rem;
-  }
-  .about-description {
-    margin: 0 2rem;
-    font-size: 1rem;
   }
 }
 
@@ -259,39 +192,10 @@ img {
   .mission-vision {
     gap: 10px;
   }
-  .about-description {
-    margin: 0 2rem;
-    font-size: 1rem;
-  }
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
   .core-values {
     padding: 0 10px;
-  }
-  .about-description {
-    margin: 0 5rem;
-    font-size: 1rem;
-  }
-
-  .about-title {
-    font-size: 2.5rem;
-    color: #1d70b6;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-
-  .about-person-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  /* Description Section */
-  .about-description-section {
-    position: absolute;
-    top: 80vh;
-    text-align: center;
-    align-items: center;
   }
 }

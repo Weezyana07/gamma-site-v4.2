@@ -1,39 +1,35 @@
 import React from "react";
 import Header from "../components/Header";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import "./AboutPage.css";
 
 const About = () => {
   return (
     <div className="about-container">
       <Header />
-      <div className="about-header">
-        <div className="about-container">
+      <div className="service-header">
+        <div className="content-container">
           {/* Text and Image Section */}
-          <div className="about-text-and-image">
-            <div className="about-container">
-              <div className="about-text-section">
-                <h1 className="about-title">GAMMA SPECTRE:</h1>
-                <h2 className="about-subtitle">
-                  Uniting Innovation with Purpose
-                </h2>
+          <div className="text-and-image">
+            <div className="text-container">
+              <div className="text-section">
+                <h1 className="main-title">GAMMA SPECTRE:</h1>
+                <h2 className="subtitle">Uniting Innovation with Purpose </h2>
               </div>
             </div>
-            <div className="about-img-container">
-              <div className="about-image-section">
+            <div className="img-container">
+              <div className="image-section">
                 <img
-                  src="images/gamma.png"
+                  src="images/person.png"
                   alt="Professional person"
-                  className="about-person-image"
+                  className="person-image"
                 />
               </div>
             </div>
           </div>
 
           {/* Description Section */}
-          <div className="about-description-section">
-            <p className="about-description">
+          <div className="description-section">
+            <p className="description">
               Welcome to <span className="highlight">GAMMA SPECTRE</span>, where
               innovation meets passion. Founded 2022 we've been dedicated to
               providing cutting-edge solutions, revolutionizing industries. Our
@@ -155,8 +151,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Contact />
-      <Footer />
     </div>
   );
 };

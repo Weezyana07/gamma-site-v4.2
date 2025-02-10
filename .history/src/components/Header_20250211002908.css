@@ -82,7 +82,7 @@
   color: #ff4500;
 }
 
-/* .dropdown {
+.dropdown {
   display: none;
   position: absolute;
   background: white;
@@ -92,19 +92,20 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-} */
+}
 
-.dropdown {
+/* .dropdown {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
+  width: 100%;
   background: white;
   list-style: none;
   padding: 10px 0;
   border-radius: 5px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .dropdown-container:hover .dropdown,
 .dropdown-container .dropdown.show {

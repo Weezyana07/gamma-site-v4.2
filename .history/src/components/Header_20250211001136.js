@@ -5,7 +5,6 @@ import "./Header.css";
 const Header = () => {
   const [isNavScrolled, setIsNavScrolled] = useState(false);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {

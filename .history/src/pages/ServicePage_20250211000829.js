@@ -1,6 +1,5 @@
 // src/pages/Services.js
-import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import React from "react";
 import ServiceSection from "../components/ServiceSection";
 import consultancyImg from "../assets/images/consul.jpg";
 import itImg from "../assets/images/telecom.jpg";
@@ -13,17 +12,6 @@ import Header from "../components/Header";
 import "./ServicePage.css";
 
 const Services = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.hash) {
-      const sectionId = location.hash.substring(1); // Remove the '#' symbol
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  }, [location]);
   return (
     <div className="services-page">
       <Header />

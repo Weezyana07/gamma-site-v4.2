@@ -1,45 +1,42 @@
 import React from "react";
-import Header from "../components/Header";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import "./AboutPage.css";
 
 const About = () => {
   return (
     <div className="about-container">
       <Header />
-      <div className="about-header">
-        <div className="about-container">
+      <div className="service-header">
+        <div className="content-container">
           {/* Text and Image Section */}
-          <div className="about-text-and-image">
-            <div className="about-container">
-              <div className="about-text-section">
-                <h1 className="about-title">GAMMA SPECTRE:</h1>
-                <h2 className="about-subtitle">
-                  Uniting Innovation with Purpose
+          <div className="text-and-image">
+            <div className="text-container">
+              <div className="text-section">
+                <h1 className="main-title">Empowering Your Success:</h1>
+                <h2 className="subtitle">
+                  Explore Our Comprehensive Services Today!
                 </h2>
               </div>
             </div>
-            <div className="about-img-container">
-              <div className="about-image-section">
+            <div className="img-container">
+              <div className="image-section">
                 <img
-                  src="images/gamma.png"
+                  src="images/person.png"
                   alt="Professional person"
-                  className="about-person-image"
+                  className="person-image"
                 />
               </div>
             </div>
           </div>
 
           {/* Description Section */}
-          <div className="about-description-section">
-            <p className="about-description">
-              Welcome to <span className="highlight">GAMMA SPECTRE</span>, where
-              innovation meets passion. Founded 2022 we've been dedicated to
-              providing cutting-edge solutions, revolutionizing industries. Our
-              journey began with a simple vision: to transform the way
-              businesses operate, enhance user experiences, by providing expert
-              guidance
+          <div className="description-section">
+            <p className="description">
+              At <span className="highlight">GAMMA SPECTRE</span>, Welcome to
+              GAMMA SPECTRE, where innovation meets passion. Founded 2022 we've
+              been dedicated to providing cutting-edge solutions,
+              revolutionizing industries. Our journey began with a simple
+              vision: to transform the way businesses operate, enhance user
+              experiences, by providing expert guidance
             </p>
           </div>
         </div>
@@ -155,8 +152,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Contact />
-      <Footer />
     </div>
   );
 };

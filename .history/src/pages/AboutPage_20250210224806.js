@@ -1,7 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import "./AboutPage.css";
 
 const About = () => {
@@ -155,8 +153,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Contact />
-      <Footer />
     </div>
   );
 };

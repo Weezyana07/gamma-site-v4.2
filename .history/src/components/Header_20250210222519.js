@@ -5,7 +5,6 @@ import "./Header.css";
 const Header = () => {
   const [isNavScrolled, setIsNavScrolled] = useState(false);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,28 +51,15 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="dropdown-container">
-            <button
-              className="nav-link dropdown-toggle"
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            >
+            <NavLink to="/services" className="nav-link">
               Services
-            </button>
-            <ul className={`dropdown ${isDropdownOpen ? "open" : ""}`}>
-              <li>
-                <NavLink to="/services#consultancy">Consultancy</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#it">Information Technology</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#manufacturing">Manufacturing</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#construction">Construction</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#contracts">General Contracts</NavLink>
-              </li>
+            </NavLink>
+            <ul className="dropdown">
+              <li>Consultancy</li>
+              <li>Information Technology</li>
+              <li>Manufacturing</li>
+              <li>Construction</li>
+              <li>General Contracts</li>
             </ul>
           </li>
           <li>

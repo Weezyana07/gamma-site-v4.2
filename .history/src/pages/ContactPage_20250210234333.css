@@ -332,43 +332,6 @@ img {
     max-width: 80%;
     margin: 0 auto;
   }
-  .contact-header {
-    height: 100vh;
-    background: #f8f9fa;
-  }
-  .contact-top-image,
-  .contact-bottom-image {
-    max-height: 70vh;
-    object-fit: cover;
-  }
-
-  .contact-bottom-image {
-    top: 70vh;
-    height: 30vh;
-  }
-
-  .contact-mid-text {
-    top: 65vh;
-  }
-
-  .contact-mid-text p {
-    font-size: 1rem;
-    margin: 3% 10%;
-  }
-
-  .contact-welcome {
-    max-width: 400px;
-    top: 270px;
-  }
-
-  .contact-title {
-    font-size: 2.5rem;
-  }
-
-  .contact-subtitle {
-    font-size: 2rem;
-    max-width: 600px;
-  }
 
   .contact-info,
   .contact-form,
@@ -387,30 +350,6 @@ img {
   .contact-container {
     max-width: 70%;
     margin: 0 auto;
-  }
-
-  .contact-bottom-image {
-    top: 70vh;
-  }
-
-  .contact-welcome {
-    max-width: 500px;
-  }
-  .contact-title {
-    font-size: 2.5rem;
-  }
-
-  .contact-subtitle {
-    font-size: 2rem;
-    max-width: 400px;
-  }
-
-  .contact-mid-text {
-    top: 65vh;
-  }
-  .contact-mid-text p {
-    font-size: 1.1rem;
-    margin: 3% 10%;
   }
 
   .contact-info,

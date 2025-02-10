@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "./ContactPage.css"; // Create this file for styling
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div className="contact-container">
       <div className="contact-header">
@@ -88,4 +88,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;

@@ -223,41 +223,6 @@ img {
   .contact-container {
     padding: 1.5rem;
   }
-  .contact-header {
-    height: 80vh;
-  }
-  .contact-top-image,
-  .contact-bottom-image {
-    max-height: 50vh;
-    object-fit: cover;
-  }
-
-  .contact-bottom-image {
-    top: 50vh;
-    height: 25vh;
-  }
-  .contact-welcome {
-    max-width: 320px;
-    padding-left: 2rem;
-  }
-  .contact-title {
-    width: 100%;
-    font-size: 1.6rem;
-  }
-
-  .contact-subtitle {
-    font-size: 1.3rem;
-    max-width: 260px;
-  }
-  .contact-mid-text {
-    top: 47vh;
-    padding: 2rem 0; /* Space around the text */
-  }
-  .contact-mid-text p {
-    font-size: 0.8rem;
-    margin: 1% 5%;
-    padding: 0.2rem;
-  }
 
   .contact-info h2,
   .contact-form h2,
@@ -275,40 +240,6 @@ img {
 @media (min-width: 769px) and (max-width: 1024px) {
   .contact-container {
     padding: 2rem;
-  }
-  .contact-header {
-    height: 95vh;
-  }
-  .contact-top-image,
-  .contact-bottom-image {
-    max-height: 60vh;
-    object-fit: cover;
-  }
-
-  .contact-bottom-image {
-    top: 60vh;
-    height: 35vh;
-  }
-
-  .contact-welcome {
-    max-width: 350px;
-    top: 220px;
-  }
-  .contact-title {
-    width: 100%; /* Ensures h2 takes full width */
-    font-size: 2rem;
-  }
-
-  .contact-subtitle {
-    font-size: 1.6rem;
-    max-width: 280px;
-  }
-  .contact-mid-text {
-    top: 60vh;
-  }
-  .contact-mid-text p {
-    font-size: 1rem;
-    margin: 1% 10%;
   }
 
   .contact-info,
@@ -332,43 +263,6 @@ img {
     max-width: 80%;
     margin: 0 auto;
   }
-  .contact-header {
-    height: 100vh;
-    background: #f8f9fa;
-  }
-  .contact-top-image,
-  .contact-bottom-image {
-    max-height: 70vh;
-    object-fit: cover;
-  }
-
-  .contact-bottom-image {
-    top: 70vh;
-    height: 30vh;
-  }
-
-  .contact-mid-text {
-    top: 65vh;
-  }
-
-  .contact-mid-text p {
-    font-size: 1rem;
-    margin: 3% 10%;
-  }
-
-  .contact-welcome {
-    max-width: 400px;
-    top: 270px;
-  }
-
-  .contact-title {
-    font-size: 2.5rem;
-  }
-
-  .contact-subtitle {
-    font-size: 2rem;
-    max-width: 600px;
-  }
 
   .contact-info,
   .contact-form,
@@ -387,30 +281,6 @@ img {
   .contact-container {
     max-width: 70%;
     margin: 0 auto;
-  }
-
-  .contact-bottom-image {
-    top: 70vh;
-  }
-
-  .contact-welcome {
-    max-width: 500px;
-  }
-  .contact-title {
-    font-size: 2.5rem;
-  }
-
-  .contact-subtitle {
-    font-size: 2rem;
-    max-width: 400px;
-  }
-
-  .contact-mid-text {
-    top: 65vh;
-  }
-  .contact-mid-text p {
-    font-size: 1.1rem;
-    margin: 3% 10%;
   }
 
   .contact-info,

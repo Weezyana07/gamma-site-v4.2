@@ -58,23 +58,25 @@ const Header = () => {
             >
               Services
             </button>
-            <ul className={`dropdown ${isDropdownOpen ? "open" : ""}`}>
-              <li>
-                <NavLink to="/services#consultancy">Consultancy</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#it">Information Technology</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#manufacturing">Manufacturing</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#construction">Construction</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#contracts">General Contracts</NavLink>
-              </li>
-            </ul>
+            {isDropdownOpen && (
+              <ul className="dropdown">
+                <li>
+                  <NavLink to="/services#consultancy">Consultancy</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services#it">Information Technology</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services#manufacturing">Manufacturing</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services#construction">Construction</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services#contracts">General Contracts</NavLink>
+                </li>
+              </ul>
+            )}
           </li>
           <li>
             <NavLink to="/about" className="nav-link">

@@ -18,7 +18,7 @@ function App() {
     //   </Routes>
     // </BrowserRouter>
     <Router>
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicePage />} />

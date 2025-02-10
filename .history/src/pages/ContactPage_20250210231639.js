@@ -1,27 +1,29 @@
 import React from "react";
-import Header from "../components/Header";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import "./ContactPage.css"; // Create this file for styling
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div className="contact-container">
-      <div className="contact-header">
-        <div className="contact-top-image"></div>
-        <div className="contact-mid-text">
+      <div className="home-header">
+        <div className="top-image"></div>
+        <div className="mid-text">
           <p>
-            You can contact <span>GAMMA SPECTRE</span>, we're here to answer any
-            questions you may have about our services, discuss potential
-            collaborations, or provide assistance with any inquiries. Feel free
-            to reach out to us using the contact information provided below
+            At <span>GAMMA SPECTRE</span>, we specialize in providing
+            comprehensive consultancy, information technology, and general
+            solutions tailored to meet the diverse needs of our clients. With a
+            deep understanding of industry trends and technological
+            advancements, our team of experts collaborates closely with
+            businesses to unlock their full potential and drive sustainable
+            growth.
           </p>
         </div>
-        <div className="contact-bottom-image"></div>
+        <div className="bottom-image"></div>
         <Header />
-        <div className="contact-welcome">
-          <h1 className="contact-title">Reach Out and Connect:</h1>
-          <h2 className="contact-subtitle">Let's Start a Conversation! </h2>
+        <div className="welcome">
+          <h1 className="hero-title">Unlocking Potential:</h1>
+          <h2 className="hero-subtitle">
+            Transforming Businesses with Technology and Insight.
+          </h2>
         </div>
       </div>
       {/* Contact Info Section */}
@@ -82,10 +84,8 @@ const ContactPage = () => {
           </a>
         </div>
       </div>
-      <Contact />
-      <Footer />
     </div>
   );
 };
 
-export default ContactPage;
+export default Contact;

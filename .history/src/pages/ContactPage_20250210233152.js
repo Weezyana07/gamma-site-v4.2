@@ -1,10 +1,9 @@
 import React from "react";
 import Header from "../components/Header";
-import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "./ContactPage.css"; // Create this file for styling
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div className="contact-container">
       <div className="contact-header">
@@ -82,10 +81,9 @@ const ContactPage = () => {
           </a>
         </div>
       </div>
-      <Contact />
       <Footer />
     </div>
   );
 };
 
-export default ContactPage;
+export default Contact;
