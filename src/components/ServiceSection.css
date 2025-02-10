@@ -10,7 +10,6 @@
   margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
 }
 
 .service-content {
@@ -35,7 +34,6 @@
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
   text-align: justify;
-  color: #555;
 }
 
 .service-text h3 {
@@ -53,45 +51,10 @@
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
 }
 
-/* Tablet Styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .service-content {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .service-img {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
-
-  .service-text {
-    margin-top: 1rem;
-  }
-}
-
-/* Desktop Styles */
-@media (min-width: 1025px) {
-  .service-content {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .service-img {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
-
-  .service-text {
-    margin-top: 0;
-  }
-}
-
-/* Mobile Styles */
-@media (max-width: 767px) {
+/* Breakpoint: Up to 480px (mobile phones) */
+@media (max-width: 480px) {
   .service-section {
     padding: 1rem;
   }
@@ -116,5 +79,109 @@
   .service-text p,
   .service-text ul li {
     font-size: 0.9rem;
+  }
+}
+
+/* Breakpoint: 481px to 768px (tablets and small screens) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .service-section {
+    padding: 1rem;
+  }
+
+  .service-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .service-content {
+    flex-direction: column;
+  }
+
+  .service-img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .service-text {
+    max-width: 100%;
+  }
+
+  .service-text p,
+  .service-text ul li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .service-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .service-text p {
+    font-size: 1rem;
+  }
+  .service-text ul li {
+    font-size: 1rem;
+  }
+  .description-section {
+    top: 70vh;
+  }
+
+  .service-img {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .service-text {
+    margin-top: 1rem;
+  }
+}
+
+/* Breakpoint: 1025px to 1200px (desktops and large screens) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .service-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .service-text p {
+    font-size: 1rem;
+  }
+  .service-text ul li {
+    font-size: 1rem;
+  }
+ 
+  .service-img {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .service-text {
+    margin-top: 0;
+  }
+}
+
+/* Default styles for larger screens (1201px+) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .service-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .service-text p {
+    font-size: 1rem;
+  }
+  .service-text ul li {
+    font-size: 1rem;
+  }
+
+  .service-img {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .service-text {
+    margin-top: 0;
   }
 }

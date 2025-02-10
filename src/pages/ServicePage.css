@@ -52,7 +52,7 @@ img {
 }
 
 .main-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #1d70b6;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -86,7 +86,6 @@ img {
 
 .description {
   font-size: 1.2rem;
-  line-height: 1.6;
   margin: 0 10rem;
 }
 
@@ -103,6 +102,12 @@ img {
   }
   .service-header {
     height: 75vh;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
   }
   .content-container {
     flex-direction: column;
@@ -138,10 +143,10 @@ img {
     padding: 0 1rem;
   }
   .service-header {
-    height: 75vh;
+    height: 84vh;
   }
   .description-section {
-    top: 53vh;
+    top: 60vh;
   }
 
   .main-title {
@@ -153,7 +158,7 @@ img {
   }
 
   .description {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     margin: 0 2rem;
   }
   .service-section {
@@ -199,6 +204,7 @@ img {
   }
   .description {
     margin: 0 2rem;
+    font-size: 1rem;
   }
   .service-content {
     flex-direction: row;
@@ -228,6 +234,7 @@ img {
 
   .description {
     margin: 0 2rem;
+    font-size: 1rem;
   }
 
   .service-img {
@@ -248,5 +255,28 @@ img {
   }
   .description {
     margin: 0 5rem;
+    font-size: 1rem;
   }
+  
+  .main-title {
+    font-size: 2.5rem;
+    color: #1d70b6;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .person-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Description Section */
+  .description-section {
+    position: absolute;
+    top: 80vh;
+    text-align: center;
+    align-items: center;
+  }
+  
 }
