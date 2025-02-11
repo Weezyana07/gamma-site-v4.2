@@ -52,12 +52,11 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="dropdown-container">
-            <button
-              className="nav-link dropdown-toggle"
+          <NavLink to="/services" className="nav-link dropdown-toggle"
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             >
               Services
-            </button>
+            </NavLink>
             <ul className={`dropdown ${isDropdownOpen ? "open" : ""}`}>
               <li>
                 <NavLink to="/services#consultancy">Consultancy</NavLink>
