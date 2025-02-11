@@ -28,10 +28,10 @@ const ContactPage = () => {
       <div className="contact-info">
         <h2>Contact Information</h2>
         <p>
-          <strong>Address:</strong> 123 Placeholder St, Lagos, Nigeria
+          <strong>Address:</strong> 15 Bujumbura St, Wuse 2, Abuja 904101, FCT
         </p>
         <p>
-          <strong>Phone:</strong> +234 800 123 4567
+          <strong>Phone:</strong> +234 000 000 0000
         </p>
         <p>
           <strong>Email:</strong> info@gammaspectre.com

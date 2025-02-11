@@ -151,7 +151,7 @@ img {
 /* Small screens: mobile phones */
 @media (max-width: 480px) {
   .contact-container {
-    padding: 1rem;
+    padding: 0 1rem;
   }
 
   .contact-header {
@@ -221,7 +221,7 @@ img {
 /* Tablets: Portrait and landscape */
 @media (min-width: 481px) and (max-width: 768px) {
   .contact-container {
-    padding: 1.5rem;
+    padding: 0 1.5rem;
   }
   .contact-header {
     height: 80vh;
@@ -274,7 +274,7 @@ img {
 /* Tablets: Larger screens */
 @media (min-width: 769px) and (max-width: 1024px) {
   .contact-container {
-    padding: 2rem;
+    padding: 0 2rem;
   }
   .contact-header {
     height: 95vh;
