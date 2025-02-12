@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "./AboutPage.css";
+// import "./About.css";
 
 const About = () => {
   return (
