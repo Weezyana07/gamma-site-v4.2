@@ -296,7 +296,7 @@ img {
   }
   .it-img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
   }
   .mission-vision-section {
     flex-direction: column;
@@ -306,7 +306,7 @@ img {
   }
   .mv-img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
   }
 }
 
@@ -339,7 +339,7 @@ img {
   }
   .it-img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
   }
   .mission-vision-section {
     flex-direction: column;
@@ -349,7 +349,7 @@ img {
   }
   .mv-img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
   }
 }
 
