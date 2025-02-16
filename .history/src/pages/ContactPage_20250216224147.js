@@ -60,7 +60,7 @@ const ContactPage = () => {
             <strong>Phone:</strong> +234 000 000 0000
           </p>
           <p>
-            <strong>Email:</strong> info@gammaspectre.com.ng
+            <strong>Email:</strong> info@gammaspectre.com
           </p>
           <p>
             <strong>Office Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM
