@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import itImg from "../assets/images/telecom.jpg";
+import customer1 from "../assets/images/customer1.jpg";
 import "./AboutPage.css";
 // import "./About.css";
 
@@ -68,9 +69,9 @@ const About = () => {
         
       </section>
 
-      <section className="intro">
-        <div className="intro-section">
-        <img src={itImg} alt="IT" className="it-img" />
+      <section className="mission-vision">
+        <div className="mission-vision-section">
+        <img src={itImg} alt="IT" className="mv-img" />
         <div>
           <h1>Mission</h1>
           <p>
@@ -90,33 +91,7 @@ const About = () => {
             foster sustainable development.
         </p>
         </div>
-        </div>
-        
-      </section>
-
-      {/* Mission and Vision */}
-      <section className="mission-vision">
-        <div className="mission">
-          <h2>Mission</h2>
-          <p>
-            At <span className="highlight">Gamma Spectre</span>, our mission is to deliver exceptional solutions,
-            services, and products in the fields of consultancy, information
-            technology, construction, manufacturing, and general contracting. We
-            are committed to enabling progress, improving communities, and
-            providing value to our clients through innovative, high-quality, and
-            reliable offerings.
-          </p>
-        </div>
-        <div className="vision">
-          <h2>Vision</h2>
-          <p>
-            Our vision at <span className="highlight">Gamma Spectre</span> is to be a dynamic and versatile leader
-            in the business world, known for our ability to adapt and excel in a
-            variety of sectors. We aspire to provide innovative solutions that
-            drive economic growth, enhance technological capabilities, and
-            foster sustainable development.
-          </p>
-        </div>
+        </div>       
       </section>
 
       {/* Core Values */}
@@ -171,17 +146,22 @@ const About = () => {
         <h2>Meet Our Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <div className="team-photo-placeholder">[Photo]</div>
+            <div className="team-photo-placeholder"><img src={customer1} alt="team" className="team-img" /></div>
             <h3>John Doe</h3>
             <p>CEO & Founder</p>
           </div>
           <div className="team-member">
-            <div className="team-photo-placeholder">[Photo]</div>
+            <div className="team-photo-placeholder"><img src={customer1} alt="team" className="team-img" /></div>
             <h3>Jane Smith</h3>
             <p>Head of Operations</p>
           </div>
           <div className="team-member">
-            <div className="team-photo-placeholder">[Photo]</div>
+            <div className="team-photo-placeholder"><img src={customer1} alt="team" className="team-img" /></div>
+            <h3>Samuel Lee</h3>
+            <p>Lead Developer</p>
+          </div>
+          <div className="team-member">
+            <div className="team-photo-placeholder"><img src={customer1} alt="team" className="team-img" /></div>
             <h3>Samuel Lee</h3>
             <p>Lead Developer</p>
           </div>
