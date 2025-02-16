@@ -126,13 +126,6 @@ img {
   text-align: justify;
 }
 
-.it-img {
-  flex: 1;
-  max-width: 50%;
-  height: auto;
-  border-radius: 10px;
-}
-
 /* mission Section */
 
 .mission-vision {
@@ -161,12 +154,14 @@ img {
   margin-top: 0.5rem;
 }
 
-.mv-img {
-  flex: 1;
-  max-width: 50%;
-  height: auto;
-  border-radius: 10px;
-}
+.it-img, 
+  .mv-img {
+    max-width: 100%;
+    max-width: 600px;
+    height: auto; 
+    /* display: block; */
+    margin: auto;
+  }
 
 /* Core Values Section */
 .core-values {
