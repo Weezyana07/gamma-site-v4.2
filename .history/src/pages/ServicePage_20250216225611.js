@@ -111,15 +111,7 @@ const Services = () => {
         id="construction"
         title="Construction Division"
         imgSrc={constructionImg}
-        description={
-          <>
-            <span className="highlight">Gamma Spectre</span>'s Construction
-            Division is dedicated to providing a wide range of construction
-            services, covering various aspects of the construction industry. We
-            take pride in delivering high-quality projects while adhering to the
-            highest safety and sustainability standards.
-          </>
-        }
+        description="Gamma Spectre's Construction Division is dedicated to providing a wide range of construction services, covering various aspects of the construction industry. We take pride in delivering high-quality projects while adhering to the highest safety and sustainability standards."
         services={[
           "Residential Construction",
           "Commercial Construction",
@@ -132,15 +124,7 @@ const Services = () => {
         id="manufacturing"
         title="Manufacturing Division"
         imgSrc={manufacturingImg}
-        description={
-          <>
-            <span className="highlight">Gamma Spectre</span>'s Manufacturing
-            Division is a cornerstone of our company, specializing in the
-            production of a wide range of products. We operate state-of-the-art
-            facilities that are dedicated to precision manufacturing, quality
-            control, and innovation.
-          </>
-        }
+        description="Gamma Spectre's Manufacturing Division is a cornerstone of our company, specializing in the production of a wide range of products. We operate state-of-the-art facilities that are dedicated to precision manufacturing, quality control, and innovation. "
         services={[
           "Advanced Technological Equipment",
           "Consumer Goods",
@@ -153,14 +137,7 @@ const Services = () => {
         id="contracts"
         title="General Contract Division"
         imgSrc={generalImg}
-        description={
-          <>
-            <span className="highlight">Gamma Spectre</span>'s General Contract
-            Division is committed to delivering comprehensive general
-            contracting services. We offer project management, procurement, and
-            execution for a wide range of projects across diverse sectors.
-          </>
-        }
+        description="Gamma Spectre's General Contract Division is committed to delivering comprehensive general contracting services. We offer project management, procurement, and execution for a wide range of projects across diverse sectors. "
         services={[
           "Project Management",
           "Procurement and Supply Chain Management",
