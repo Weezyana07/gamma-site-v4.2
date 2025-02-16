@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import itImg from "../assets/images/telecom.jpg";
 import "./AboutPage.css";
 // import "./About.css";
 
@@ -48,7 +49,8 @@ const About = () => {
       {/* Introductory Statement */}
       <section className="intro">
         <h1>About Us</h1>
-        <p>
+        <div className="intro-section">
+          <p>
           At <span className="highlight">Gamma Spectre</span>, we are a dynamic,
           forward-thinking company redefining excellence across consultancy,
           information technology, construction, manufacturing, and general
@@ -61,6 +63,35 @@ const About = () => {
           commitment to excellence and innovation drives us to provide superior
           services and develop solutions that empower businesses to thrive.
         </p>
+        <img src={itImg} alt="IT" className="it-img" />
+        </div>
+        
+      </section>
+
+      <section className="intro">
+        <div className="intro-section">
+        <img src={itImg} alt="IT" className="it-img" />
+        <div>
+          <h1>Mission</h1>
+          <p>
+          At <span className="highlight">Gamma Spectre</span>, our mission is to deliver exceptional solutions,
+            services, and products in the fields of consultancy, information
+            technology, construction, manufacturing, and general contracting. We
+            are committed to enabling progress, improving communities, and
+            providing value to our clients through innovative, high-quality, and
+            reliable offerings.
+        </p>
+        <h1>Vision</h1>
+        <p>
+        Our vision at <span className="highlight">Gamma Spectre</span> is to be a dynamic and versatile leader
+            in the business world, known for our ability to adapt and excel in a
+            variety of sectors. We aspire to provide innovative solutions that
+            drive economic growth, enhance technological capabilities, and
+            foster sustainable development.
+        </p>
+        </div>
+        </div>
+        
       </section>
 
       {/* Mission and Vision */}
@@ -68,7 +99,7 @@ const About = () => {
         <div className="mission">
           <h2>Mission</h2>
           <p>
-            At Gamma Spectre, our mission is to deliver exceptional solutions,
+            At <span className="highlight">Gamma Spectre</span>, our mission is to deliver exceptional solutions,
             services, and products in the fields of consultancy, information
             technology, construction, manufacturing, and general contracting. We
             are committed to enabling progress, improving communities, and
@@ -79,7 +110,7 @@ const About = () => {
         <div className="vision">
           <h2>Vision</h2>
           <p>
-            Our vision at Gamma Spectre is to be a dynamic and versatile leader
+            Our vision at <span className="highlight">Gamma Spectre</span> is to be a dynamic and versatile leader
             in the business world, known for our ability to adapt and excel in a
             variety of sectors. We aspire to provide innovative solutions that
             drive economic growth, enhance technological capabilities, and
