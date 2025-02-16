@@ -294,18 +294,18 @@ img {
   .intro-section {
     flex-direction: column;
   }
-  .it-img {
+  /* .it-img {
     max-width: 100%;
-  }
+  } */
   .mission-vision-section {
     flex-direction: column;
   }
   .mission-vision-section p {
     margin: 1rem;
   }
-  .mv-img {
+  /* .mv-img {
     max-width: 100%;
-  }
+  } */
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -335,18 +335,18 @@ img {
   .intro-section {
     flex-direction: column;
   }
-  .it-img {
+  /* .it-img {
     max-width: 100%;
-  }
+  } */
   .mission-vision-section {
     flex-direction: column;
   }
   .mission-vision-section p {
     margin: 1rem;
   }
-  .mv-img {
+  /* .mv-img {
     max-width: 100%;
-  }
+  } */
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
