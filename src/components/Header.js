@@ -5,15 +5,11 @@ import "./Header.css";
 const Header = () => {
   const [isNavScrolled, setIsNavScrolled] = useState(false);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const currentPath = window.location.pathname;
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsNavScrolled(true);
-      } else {
-        setIsNavScrolled(false);
-      }
+      setIsNavScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -22,7 +18,7 @@ const Header = () => {
   return (
     <header className={`nav-wrapper ${isNavScrolled ? "sticky-nav" : ""}`}>
       <div className="logo">
-        <a href="#">
+        <a hrefa="/">
           <img
             src="images/logo-home.png"
             alt="Logo"
@@ -36,56 +32,22 @@ const Header = () => {
         aria-controls="primary-navigation"
         aria-expanded={isMobileNavOpen}
       >
-        <img
-          className="icon-hamburger"
-          src="images/icon-hamburger.png"
-          alt="Menu"
-        />
+        <img className="icon-hamburger" src="images/icon-hamburger.png" alt="Menu" />
       </button>
-      <nav
-        className={`primary-navigation ${isMobileNavOpen ? "open" : "closed"}`}
-      >
+      <nav className={`primary-navigation ${isMobileNavOpen ? "open" : "closed"}`}>
         <ul className="nav-list">
-          <li>
-            <NavLink to="/" className="nav-link">
-              Home
-            </NavLink>
-          </li>
-          <li className="dropdown-container">
-          <NavLink to="/services" className="nav-link dropdown-toggle"
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            >
-              Services
-            </NavLink>
-            <ul className={`dropdown ${isDropdownOpen ? "open" : ""}`}>
-              <li>
-                <NavLink to="/services#consultancy">Consultancy</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#it">Information Technology</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#manufacturing">Manufacturing</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#construction">Construction</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services#contracts">General Contracts</NavLink>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <NavLink to="/about" className="nav-link">
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" className="nav-link">
-              Contact
-            </NavLink>
-          </li>
-        </ul>
+        <li>
+  <a href="/" className={`nav-link ${currentPath === "/" ? "active" : ""}`}>Home</a>
+</li>
+<li>
+  <a href="/services" className={`nav-link ${currentPath === "/services" ? "active" : ""}`}>Services</a>
+</li>
+<li>
+  <a href="/about" className={`nav-link ${currentPath === "/about" ? "active" : ""}`}>About</a>
+</li>
+<li>
+  <a href="/contact" className={`nav-link ${currentPath === "/contact" ? "active" : ""}`}>Contact</a>
+</li> </ul>
       </nav>
     </header>
   );
