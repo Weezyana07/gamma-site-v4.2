@@ -159,7 +159,7 @@ img {
     max-width: 100%;
     max-width: 600px;
     height: auto; 
-    /* display: block; */
+    border-radius: 8px;
     margin: auto;
   }
 

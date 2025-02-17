@@ -27,16 +27,6 @@
   justify-content: center;
 }
 
-/* .industry-card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  width: 30%;
-  max-width: 20vw;
-  text-align: justify;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-} */
 .industry-card {
   display: flex;
   flex-direction: column; /* Ensures content stacks vertically */
@@ -71,27 +61,12 @@
   text-align: center;
 }
 
-/* .industry-card p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  text-align: left;
-} */
 .industry-card p {
   flex-grow: 1; /* Allows description to take available space */
   font-size: 1rem;
   text-align: left;
 }
 
-/* .read-more {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  font-size: 1.2;
-  color: #ff4500;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
-} */
 .read-more {
   display: inline-block;
   margin-top: auto; /* Pushes it to the bottom */
