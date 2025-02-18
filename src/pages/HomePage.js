@@ -12,6 +12,7 @@ import "./HomePage.css";
 const Home = () => {
   return (
     <div>
+        <Header />
       <div className="home-header">
         <div className="top-image"></div>
         <div className="mid-text">
@@ -26,13 +27,14 @@ const Home = () => {
           </p>
         </div>
         <div className="bottom-image"></div>
-        <Header />
+         <div className="container">
           <div className="welcome">
           <h1 className="hero-title">Unlocking Potential:</h1>
             <h2 className="hero-subtitle">
               Transforming Businesses with Technology and Insight.
             </h2>
             </div>
+         </div>
       </div>
       <Services />
       <Industries />

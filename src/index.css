@@ -27,3 +27,14 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-background {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px 0;
+}
