@@ -137,7 +137,7 @@ img {
     position: relative;
   }
 
-  .welcome {
+  /* .welcome {
     max-width: 200px;
     font-size: 1.5rem;
     top: 170px;
@@ -150,6 +150,21 @@ img {
   .hero-subtitle {
     font-size: 0.9rem;
     max-width: 180px;
+  } */
+
+  .welcome {
+    max-width: 250px;
+    font-size: 1.5rem;
+    top: 170px;
+    left: 9rem;
+  }
+  .hero-title {
+    font-size: 1.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    max-width: 200px;
   }
 
   .mid-text {
