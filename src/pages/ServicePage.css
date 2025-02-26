@@ -1,5 +1,5 @@
 .services-page {
-  padding: 0 8rem;
+  /* padding: 0 8rem; */
 }
 img {
   max-width: 100%; /* Ensures images never exceed the container width */
@@ -22,7 +22,7 @@ img {
 
 /* Content Container */
 .content-container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ img {
 
 .img-container {
   flex: 1;
-  max-width: 1000px;
+  max-width: 500px;
   display: flex;
   justify-content: center;
 }
@@ -97,7 +97,7 @@ img {
 /* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
   .services-page {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
   .service-header {
     height: 75vh;
@@ -139,7 +139,7 @@ img {
 /* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   .services-page {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
   .service-header {
     height: 84vh;
@@ -190,7 +190,7 @@ img {
 /* Small Laptops (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
   .services-page {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
   .service-header {
     height: 80vh;
@@ -224,7 +224,7 @@ img {
 /* Breakpoint: 1025px to 1200px (desktops and large screens) */
 @media (min-width: 1025px) and (max-width: 1200px) {
   .services-page {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
   .service-content {
     flex-direction: row;
@@ -250,7 +250,7 @@ img {
 /* Large Screens (1201px and above) */
 @media (min-width: 1201px) and (max-width: 1400px) {
   .content-container {
-    padding: 2rem;
+    /* padding: 2rem; */
   }
   .description {
     margin: 0 5rem;

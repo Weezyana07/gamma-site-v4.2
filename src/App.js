@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import ServicePage from "./pages/ServicePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import CompliancePage from "./pages/CompliancePage";
 
 function App() {
   return (
@@ -18,10 +19,10 @@ function AppRoutes() {
 
   return (
     <Routes key={location.pathname}> 
-      <Route path="/" element={<HomePage />} />
-      <Route path="/services" element={<ServicePage />} />
+      <Route path="/" element={<CompliancePage />} />
+      {/* <Route path="/services" element={<ServicePage />} />
       <Route path="/about" element={<AboutPage />} />
-      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/contact" element={<ContactPage />} /> */}
     </Routes>
   );
 }

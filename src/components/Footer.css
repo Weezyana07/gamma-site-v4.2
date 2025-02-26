@@ -82,6 +82,11 @@ footer {
   font-size: 0.9rem;
 }
 
+.compliance {
+  text-decoration: underline !important;
+  font-style: italic;
+}
+
 
 /* ✅ Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
