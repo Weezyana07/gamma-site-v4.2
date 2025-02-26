@@ -1,5 +1,5 @@
 // src/components/Footer.js
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import { ReactComponent as FacebookLogo } from "../assets/images/facebook.svg";
@@ -31,16 +31,16 @@ const Footer = () => {
           </p>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <a href="/services">Services</a>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <a href="/about">About</a>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>
