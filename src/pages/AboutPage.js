@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../components/Header";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import itImg from "../assets/images/telecom.jpg";
+import aboutImg from "../assets/images/about.jpg";
+import missionImg from "../assets/images/mission.jpg";
 import customer1 from "../assets/images/customer1.jpg";
 import "./AboutPage.css";
 // import "./About.css";
@@ -65,13 +66,13 @@ const About = () => {
             to provide superior services and develop solutions that empower
             businesses to thrive.
           </p>
-          <img src={itImg} alt="IT" className="it-img" />
+          <img src={aboutImg} alt="IT" className="it-img" />
         </div>
       </section>
 
       <section className="mission-vision">
         <div className="mission-vision-section">
-          <img src={itImg} alt="IT" className="mv-img" />
+          <img src={missionImg} alt="IT" className="mv-img" />
           <div>
             <h1>Mission</h1>
             <p>

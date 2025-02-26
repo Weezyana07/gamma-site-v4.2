@@ -1,7 +1,7 @@
-.contact-container {
+/* .contact-container {
   padding: 0 2rem;
   font-family: Arial, sans-serif;
-}
+} */
 /* Default styles for 1201px+ */
 img {
   max-width: 100%; /* Ensures images never exceed the container width */
@@ -177,7 +177,6 @@ img {
 /* Small screens: mobile phones */
 @media (max-width: 480px) {
   .contact-container {
-    padding: 0 1rem;
   }
 
   .contact-header {
@@ -255,7 +254,6 @@ img {
 /* Tablets: Portrait and landscape */
 @media (min-width: 481px) and (max-width: 768px) {
   .contact-container {
-    padding: 0 1.5rem;
   }
   .contact-header {
     height: 80vh;
@@ -318,7 +316,6 @@ img {
 /* Tablets: Larger screens */
 @media (min-width: 769px) and (max-width: 1024px) {
   .contact-container {
-    padding: 0 2rem;
   }
   .contact-header {
     height: 95vh;
@@ -373,7 +370,7 @@ img {
 /* Small desktops */
 @media (min-width: 1025px) and (max-width: 1200px) {
   .contact-container {
-    max-width: 80%;
+    /* max-width: 80%; */
     margin: 0 auto;
   }
   .contact-header {
@@ -429,7 +426,7 @@ img {
 /* Medium desktops */
 @media (min-width: 1201px) and (max-width: 1400px) {
   .contact-container {
-    max-width: 70%;
+    /* max-width: 70%; */
     margin: 0 auto;
   }
 
