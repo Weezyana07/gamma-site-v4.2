@@ -43,7 +43,7 @@ const About = () => {
               providing cutting-edge solutions, revolutionizing industries. Our
               journey began with a simple vision: to transform the way
               businesses operate, enhance user experiences, by providing expert
-              guidance
+              guidance.
             </p>
           </div>
         </div>

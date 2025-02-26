@@ -87,12 +87,11 @@ const CompliancePage = () => {
           {/* Description Section */}
           <div className="about-description-section">
             <p className="about-description">
-              Welcome to <span className="highlight">GAMMA SPECTRE</span>, where
-              innovation meets passion. Founded 2022 we've been dedicated to
-              providing cutting-edge solutions, revolutionizing industries. Our
-              journey began with a simple vision: to transform the way
-              businesses operate, enhance user experiences, by providing expert
-              guidance
+              At <span className="highlight">GAMMA SPECTRE</span>, we prioritize transparency, integrity, 
+              and adherence to industry regulations. Our compliance documents serve as a testament to our 
+              commitment to ethical business practices, legal standards, and operational excellence. Below, 
+              you’ll find our official certifications and regulatory documents, ensuring confidence in our 
+              services and partnerships.
             </p>
           </div>
         </div>

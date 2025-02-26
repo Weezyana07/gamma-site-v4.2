@@ -56,7 +56,7 @@ const ContactPage = () => {
             You can contact <span>GAMMA SPECTRE</span>, we're here to answer any
             questions you may have about our services, discuss potential
             collaborations, or provide assistance with any inquiries. Feel free
-            to reach out to us using the contact information provided below
+            to reach out to us using the contact information provided below.
           </p>
         </div>
         <div className="contact-bottom-image"></div>
