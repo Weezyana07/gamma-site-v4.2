@@ -58,7 +58,7 @@ const Footer = () => {
           <br /> */}
           <p>
             © 2025 <span className="comp">Gamma Spectre Solutions Limited</span>
-            . All rights reserved. <a href="/compliance" className="compliance">company compliance</a>
+            . All rights reserved. <a href="/compliance" className="compliance">company compliance</a> documents
           </p>
         </div>
       </div>

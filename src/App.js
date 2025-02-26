@@ -19,10 +19,11 @@ function AppRoutes() {
 
   return (
     <Routes key={location.pathname}> 
-      <Route path="/" element={<CompliancePage />} />
-      {/* <Route path="/services" element={<ServicePage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/services" element={<ServicePage />} />
       <Route path="/about" element={<AboutPage />} />
-      <Route path="/contact" element={<ContactPage />} /> */}
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/compliance" element={<CompliancePage />} />
     </Routes>
   );
 }
