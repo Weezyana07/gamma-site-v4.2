@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logo from "../assets/images/logo-home.png";
 import "./Header.css";
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
       <div className="logo">
         <a hrefa="/">
           <img
-            src="images/logo-home.png"
+            src={logo}
             alt="Logo"
             className={isNavScrolled ? "logo-small" : ""}
           />

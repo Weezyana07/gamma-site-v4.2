@@ -7,6 +7,7 @@ import itImg from "../assets/images/telecom.jpg";
 import constructionImg from "../assets/images/cons.jpg";
 import manufacturingImg from "../assets/images/manufact.webp";
 import generalImg from "../assets/images/contract.webp";
+import person from "../assets/images/person.png";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -42,7 +43,7 @@ const Services = () => {
             <div className="img-container">
               <div className="image-section">
                 <img
-                  src="images/person.png"
+                  src={person}
                   alt="Professional person"
                   className="person-image"
                 />

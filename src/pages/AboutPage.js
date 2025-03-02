@@ -7,6 +7,7 @@ import missionImg from "../assets/images/mission.png";
 import wils from "../assets/images/wils.jpg";
 import mfon from "../assets/images/mfon2.jpg";
 import ibr from "../assets/images/ibr4.jpg";
+import fahad from "../assets/images/fahad.jpg";
 import "./AboutPage.css";
 // import "./About.css";
 
@@ -173,7 +174,7 @@ const About = () => {
           </div>
           <div className="team-member">
             <div className="team-photo-placeholder">
-              <img src={wils} alt="team" className="team-img" />
+              <img src={fahad} alt="team" className="team-img" />
             </div>
             <h3>Fahad Abdulkadir</h3>
             <p>IT Manager</p>
