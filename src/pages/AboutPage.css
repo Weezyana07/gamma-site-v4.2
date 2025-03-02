@@ -232,6 +232,10 @@ img {
   transition: transform 0.3s ease-in-out;
 }
 
+.team-member p {
+  font-weight: bold;
+}
+
 .team-member:hover {
   transform: scale(1.05);
 }

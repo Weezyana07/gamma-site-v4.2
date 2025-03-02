@@ -4,7 +4,9 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import aboutImg from "../assets/images/about.png";
 import missionImg from "../assets/images/mission.png";
-import customer1 from "../assets/images/customer1.jpg";
+import wils from "../assets/images/wils.jpg";
+import mfon from "../assets/images/mfon2.jpg";
+import ibr from "../assets/images/ibr4.jpg";
 import "./AboutPage.css";
 // import "./About.css";
 
@@ -146,35 +148,35 @@ const About = () => {
 
       {/* Team Section */}
       <section className="team">
-        <h2>Meet Our Team</h2>
+        <h2>Management Team</h2>
         <div className="team-grid">
           <div className="team-member">
             <div className="team-photo-placeholder">
-              <img src={customer1} alt="team" className="team-img" />
+              <img src={ibr} alt="team" className="team-img" />
             </div>
-            <h3>John Doe</h3>
-            <p>CEO & Founder</p>
+            <h3>Ibrahim S. Nayaya</h3>
+            <p>MD/CEO</p>
           </div>
           <div className="team-member">
             <div className="team-photo-placeholder">
-              <img src={customer1} alt="team" className="team-img" />
+              <img src={wils} alt="team" className="team-img" />
             </div>
-            <h3>Jane Smith</h3>
-            <p>Head of Operations</p>
+            <h3>Wil's Akpan</h3>
+            <p>Director</p>
           </div>
           <div className="team-member">
             <div className="team-photo-placeholder">
-              <img src={customer1} alt="team" className="team-img" />
+              <img src={mfon} alt="team" className="team-img" />
             </div>
-            <h3>Samuel Lee</h3>
-            <p>Lead Developer</p>
+            <h3>Mfon Akpabio (PhD)</h3>
+            <p>Operations Manager</p>
           </div>
           <div className="team-member">
             <div className="team-photo-placeholder">
-              <img src={customer1} alt="team" className="team-img" />
+              <img src={wils} alt="team" className="team-img" />
             </div>
-            <h3>Samuel Lee</h3>
-            <p>Lead Developer</p>
+            <h3>Fahad Abdulkadir</h3>
+            <p>IT Manager</p>
           </div>
         </div>
       </section>

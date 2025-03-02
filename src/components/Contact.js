@@ -12,10 +12,10 @@ const ContactUs = () => {
       ></div>
       <div className="contact-right">
         <div className="contact-content">
-          <h2>What can we help you overcome?</h2>
+          <h2>How Can We Help You Succeed?</h2>
           <p>
-            Do you need assistance overcoming a technological challenge? Our
-            experts are ready to help you find the best solutions.
+          Whatever challenges you're facing, we're here to provide expert solutions that drive results. 
+          Let’s turn obstacles into opportunities together.
           </p>
           <a
             href="mailto:info@gammaspectresolutions.com"
