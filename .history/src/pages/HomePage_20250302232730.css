@@ -1,0 +1,338 @@
+/* Default styles for 1201px+ */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.top-image,
+.bottom-image {
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-image {
+  top: 0;
+  background-image: url("/src/assets/images/home.jpg");
+}
+
+.bottom-image {
+  top: 70vh;
+  background-image: url("/src/assets/images/bgService.jpg");
+  max-height: 30%;
+}
+
+.welcome {
+  max-width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.hero-title {
+  width: 100%; /* Ensures h2 takes full width */
+  font-size: 4rem;
+  font-weight: bold;
+  color: #1d70b6;
+}
+
+.hero-subtitle {
+  font-size: 3.3rem;
+}
+
+.mid-text {
+  position: absolute;
+  top: 70vh; /* Positioned right after the top image */
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  padding: 2rem 0; /* Space around the text */
+}
+
+.mid-text p {
+  font-size: 1.3rem;
+  margin: 3% 15%;
+}
+
+.mid-text p strong {
+  color: #1d70b6;
+}
+
+/* Breakpoint: Up to 480px (mobile phones) */
+@media (max-width: 480px) {
+  .home-header {
+    height: 65vh;
+  }
+  .top-image,
+  .bottom-image {
+    max-height: 35vh;
+    object-fit: cover;
+  }
+  .bottom-image {
+    top: 35vh;
+    height: 70vh;
+  }
+
+  .logo a img {
+    height: 50px;
+  }
+  .nav-wrapper {
+    flex-direction: row;
+  }
+  .primary-navigation {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .primary-navigation.open {
+    display: flex;
+  }
+  .mobile-nav-toggle {
+    display: block;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dropdown-container {
+    position: relative;
+  }
+
+  .welcome {
+    max-width: 250px;
+    font-size: 1.5rem;
+    top: 170px;
+    left: 9rem;
+  }
+  .hero-title {
+    font-size: 1.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    max-width: 200px;
+  }
+
+  .mid-text {
+    top: 35vh;
+    padding: 0.8rem 0;
+  }
+
+  .mid-text p {
+    font-size: 0.9rem;
+    margin: 1% 5%;
+    padding: 0.2rem;
+  }
+}
+
+/* Breakpoint: 481px to 768px (tablets and small screens) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .home-header {
+    height: 80vh;
+  }
+  .top-image,
+  .bottom-image {
+    max-height: 50vh;
+    object-fit: cover;
+  }
+
+  .bottom-image {
+    top: 50vh;
+    height: 25vh;
+  }
+
+  .logo a img {
+    height: 60px;
+  }
+  .nav-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .primary-navigation {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .primary-navigation.open {
+    display: flex;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .welcome {
+    max-width: 320px;
+    padding-left: 2rem;
+  }
+  .hero-title {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    max-width: 260px;
+  }
+  .mid-text {
+    top: 47vh;
+    padding: 2rem 0; /* Space around the text */
+  }
+  .mid-text p {
+    font-size: 1rem;
+    color: red;
+    margin: 1% 5%;
+    padding: 0.2rem;
+  }
+}
+
+/* Breakpoint: 769px to 1024px (small laptops and large tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-header {
+    height: 95vh;
+  }
+  .top-image,
+  .bottom-image {
+    max-height: 60vh;
+    object-fit: cover;
+  }
+
+  .bottom-image {
+    top: 60vh;
+    height: 35vh;
+  }
+
+  .welcome {
+    max-width: 350px;
+    top: 220px;
+  }
+  .hero-title {
+    width: 100%; /* Ensures h2 takes full width */
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+    max-width: 280px;
+  }
+  .mid-text {
+    top: 60vh;
+  }
+  .mid-text p {
+    font-size: 1rem;
+    margin: 1% 10%;
+  }
+}
+
+/* Breakpoint: 1025px to 1200px (desktops and large screens) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .home-header {
+    height: 100vh;
+    background: #f8f9fa;
+  }
+  .top-image,
+  .bottom-image {
+    max-height: 70vh;
+    object-fit: cover;
+  }
+
+  .bottom-image {
+    top: 70vh;
+    height: 30vh;
+  }
+
+  .logo a img {
+    height: 75px;
+  }
+
+  .mid-text {
+    top: 65vh;
+  }
+
+  .mid-text p {
+    font-size: 1rem;
+    margin: 3% 10%;
+  }
+
+  .welcome {
+    max-width: 400px;
+    top: 270px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    max-width: 600px;
+  }
+}
+
+/* Default styles for larger screens (1201px+) */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .bottom-image {
+    top: 70vh;
+  }
+
+  .logo a img {
+    height: 80px;
+  }
+  .welcome {
+    max-width: 500px;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    max-width: 400px;
+  }
+
+  .mid-text {
+    top: 65vh;
+  }
+  .mid-text p {
+    font-size: 1.1rem;
+    margin: 3% 10%;
+  }
+}
