@@ -49,7 +49,7 @@ const Home = () => {
         >
           {/* Left-Aligned Hero Text */}
           <div className="max-w-7xl mx-auto px-6">
-            <div className="relative z-10 flex flex-col lg:ml-40 md:ml-8 sm:ml-4">
+            <div className="relative z-10 flex flex-col md:ml-8 sm:ml-4">
               <h1 className="text-6xl md:text-5xl sm:text-4xl font-bold text-left text-[#1d70b6] leading-tight">
                 Unlocking Potential:
               </h1>

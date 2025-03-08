@@ -48,15 +48,13 @@ const Home = () => {
           }}
         >
           {/* Left-Aligned Hero Text */}
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="relative z-10 flex flex-col lg:ml-40 md:ml-8 sm:ml-4">
-              <h1 className="text-6xl md:text-5xl sm:text-4xl font-bold text-left text-[#1d70b6] leading-tight">
-                Unlocking Potential:
-              </h1>
-              <h2 className="text-3xl md:text-2xl sm:text-xl mt-4 text-left leading-snug">
-                Transforming Businesses <br /> with Technology and Insight.
-              </h2>
-            </div>
+          <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:ml-8 md:ml-8 sm:ml-4">
+            <h1 className="text-6xl md:text-5xl sm:text-4xl font-bold text-left text-[#1d70b6] leading-tight">
+              Unlocking Potential:
+            </h1>
+            <h2 className="text-3xl md:text-2xl sm:text-xl mt-4 text-left leading-snug">
+              Transforming Businesses <br /> with Technology and Insight.
+            </h2>
           </div>
         </div>
 
