@@ -1,30 +1,3 @@
-.services {
-  text-align: center;
-  margin: 4rem 0;
-}
-
-.services h1 {
-  margin: 3rem 0;
-  font-weight: bold;
-  font-size: 3rem;
-}
-
-.service-cards {
-  display: flex;
-  flex-wrap: wrap; /* Enables wrapping on smaller screens */
-  gap: 2rem; /* Space between cards */
-  justify-content: center; /* Center the cards */
-  margin: 0 auto; /* Center the container */
-}
-
-.service-card {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  width: 16vw;
-  text-align: center;
-}
 
 .service-image {
   width: 250px;
@@ -33,139 +6,35 @@
   margin: 0 auto;
 }
 
-.service-card h3 {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
-  padding-left: 1rem;
-}
-
-.service-card p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  text-align: left;
-  padding: 0 1rem 1rem;
-}
-
 /* Responsive Design */
 
 /* Mobile screens (max-width: 480px) */
 @media (max-width: 480px) {
-  .services {
-    text-align: center;
-    margin: 0.8rem 0;
-  }
-  .services h1 {
-    font-size: 1.5rem;
-  }
-
-  .service-cards {
-    flex-direction: column; /* Stacks the cards vertically */
-    gap: 1rem;
-    align-items: center;
-  }
-
-  .service-card {
-    width: 80%; /* Card width adjusts to container */
-    padding: 1rem;
-  }
-
   .service-image {
     width: 100%; /* Full width of the card */
-  }
-
-  .service-card h3 {
-    font-size: 1rem;
-  }
-
-  .service-card p {
-    font-size: 0.85rem;
   }
 }
 
 /* Small screens (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-  .services h1 {
-    font-size: 1.8rem;
-  }
-
-  .service-cards {
-    gap: 1.5rem; /* Space between cards */
-  }
-
-  .service-card {
-    padding: 0.5rem;
-    width: 35vw;
-  }
-
   .service-image {
     width: 200px;
     height: 126px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .service-card h3 {
-    font-size: 1rem;
-    padding-left: 0.5rem;
-  }
-
-  .service-card p {
-    font-size: 0.8rem;
-    padding: 0 0.5rem 1rem;
   }
 }
 
 /* Medium screens (769px to 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .services h1 {
-    font-size: 2rem;
-  }
-
-  .service-cards {
-    gap: 1.5rem; /* Space between cards */
-  }
-
-  .service-card {
-    width: 25%;
-    padding: 0.5rem;
-  }
-
   .service-image {
     width: 200px;
     height: 126px;
     display: block;
     margin: 0 auto;
-  }
-
-  .service-card h3 {
-    font-size: 1rem;
-    padding-left: 0.5rem;
-  }
-
-  .service-card p {
-    font-size: 0.8rem;
-    padding: 0 0.5rem 1rem;
   }
 }
 
 /* Large screens (1025px to 1200px) */
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .services h1 {
-    font-size: 2.2rem;
-  }
-
-  .service-cards {
-    gap: 1.5rem; /* Space between cards */
-  }
-
-  .service-card {
-    width: 17vw;
-    padding: 0.5rem;
-  }
-
   .service-image {
     width: 200px;
     height: 126px;
@@ -173,46 +42,14 @@
     margin: 0 auto;
   }
 
-  .service-card h3 {
-    font-size: 1rem;
-    padding-left: 0.5rem;
-  }
-
-  .service-card p {
-    font-size: 0.8rem;
-    padding: 0 0.5rem 1rem;
-  }
 }
 
 /* Extra-large screens (1201px and above) */
 @media (min-width: 1201px) and (max-width: 1400px) {
-  .services h1 {
-    font-size: 2.5rem;
-  }
-
-  .service-cards {
-    gap: 1.5rem; /* Space between cards */
-  }
-
-  .service-card {
-    width: 17vw;
-    padding: 0.5rem;
-  }
-
   .service-image {
     width: 200px;
     height: 126px;
     display: block;
     margin: 0 auto;
-  }
-
-  .service-card h3 {
-    font-size: 1.1rem;
-    padding-left: 0.5rem;
-  }
-
-  .service-card p {
-    font-size: 0.9rem;
-    padding: 0 0.5rem 1rem;
   }
 }

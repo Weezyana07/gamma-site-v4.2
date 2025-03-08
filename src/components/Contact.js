@@ -1,4 +1,6 @@
 import React from "react";
+import "./Contact.css";
+import contactImage from "../assets/images/contact.jpg";
 
 const ContactUs = () => {
   return (
@@ -7,7 +9,7 @@ const ContactUs = () => {
         {/* Contact Image */}
         <div
           className="h-64 md:h-full bg-cover bg-center rounded-lg"
-          style={{ backgroundImage: "url(../assets/images/contact.jpg)" }}
+          style={{ backgroundImage: `url(${contactImage})` }}
           aria-label="Contact Us Image"
         ></div>
 
@@ -17,20 +19,19 @@ const ContactUs = () => {
             How Can We Help You Succeed?
           </h2>
           <p className="text-lg text-gray-700 mt-4">
-            Whatever challenges you face, our experts are here to help you
-            navigate them with confidence.
+          Whatever challenges you're facing, we're here to provide expert
+            solutions that drive results. Let’s turn obstacles into
+            opportunities together.
           </p>
 
           <div className="mt-6">
-            <p className="text-gray-600">
-              <strong>Email:</strong> contact@gammaspectre.com
-            </p>
-            <p className="text-gray-600">
-              <strong>Phone:</strong> +123 456 7890
-            </p>
-            <p className="text-gray-600">
-              <strong>Address:</strong> 123 Business Road, Tech City, TX
-            </p>
+          <a
+            href="mailto:info@gammaspectre.com.ng"
+            className="contact-button"
+            aria-label="Send an email to Gamma Spectre Solutions"
+          >
+            Contact Us Today
+          </a>
           </div>
         </div>
       </div>

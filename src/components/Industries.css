@@ -27,25 +27,15 @@
   justify-content: center;
 }
 
-.industry-card {
-  display: flex;
-  flex-direction: column; /* Ensures content stacks vertically */
-  justify-content: space-between; /* Distributes space evenly */
-  align-items: center;
-  background-color: white;
-  border-radius: 8px;
+/* .industry-card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  width: 30%;
-  max-width: 20vw;
-  min-height: 350px; /* Set a minimum height for equal cards */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .industry-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .industry-image {
   width: 100px;
@@ -88,169 +78,25 @@
 
 /* Small Screens (Phones) */
 @media (max-width: 480px) {
-  .industries {
-    padding: 2rem 1rem;
-  }
-
-  .industries h2 {
-    font-size: 1.5rem;
-  }
-
-  .industry-card {
-    width: 100%;
-    max-width: 320px; /* Full width with padding for phones */
-    margin: 0 auto;
-    min-height: auto;
-  }
-
-  .industry-image {
-    width: 60px;
-    height: 60px;
-  }
-
-  .industry-card h3 {
-    font-size: 1rem;
-  }
-
-  .industry-card p {
-    font-size: 0.9rem;
-    
-  }
-
-  .read-more {
-    font-size: 0.9rem;
-  }
+ 
 }
 
 /* Medium Screens (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
-  .industries {
-    padding: 3rem 1.5rem;
-  }
-
-  .industries h2 {
-    font-size: 1.8rem;
-  }
-
-  .industry-card {
-    width: 45%; /* Two cards per row */
-    max-width: 300px;
-    margin: 0 auto;
-  }
-
-  .industry-image {
-    width: 70px;
-    height: 70px;
-  }
-
-  .industry-card h3 {
-    font-size: 1rem;
-  }
-
-  .industry-card p {
-    font-size: 0.9rem;
-  }
-
-  .read-more {
-    font-size: 1rem;
-  }
+  
 }
 
 /* Large Screens (Small Laptops) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .industries {
-    padding: 4rem 2rem;
-  }
-
-  .industries h2 {
-    font-size: 2rem;
-  }
-
-  .industry-card {
-    width: 30%; /* Three cards per row */
-    max-width: 300px;
-  }
-
-  .industry-image {
-    width: 80px;
-    height: 80px;
-  }
-
-  .industry-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .industry-card p {
-    font-size: 0.9rem;
-  }
-
-  .read-more {
-    font-size: 1rem;
-  }
+  
 }
 
 /* Extra-Large Screens (Desktops and Large Laptops) */
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .industries {
-    padding: 4rem 2rem;
-  }
-
-  .industries h2 {
-    font-size: 2.2rem;
-  }
-
-  .industry-card {
-    width: 25%; /* Four cards per row */
-    max-width: 280px;
-  }
-
-  .industry-image {
-    width: 90px;
-    height: 90px;
-  }
-
-  .industry-card h3 {
-    font-size: 1.2rem;
-  }
-
-  .industry-card p {
-    font-size: 1rem;
-  }
-
-  .read-more {
-    font-size: 1.1rem;
-  }
+ 
 }
 
 /* Ultra-Wide Screens (1201px+) */
 @media (min-width: 1201px) and (max-width: 1400px) {
-  .industries {
-    padding: 5rem 3rem;
-  }
-
-  .industries h2 {
-    font-size: 2.5rem;
-  }
-
-  .industry-card {
-    width: 22%; /* Fits as many cards as possible per row */
-    max-width: 20vw;
-  }
-
-  .industry-image {
-    width: 100px;
-    height: 100px;
-  }
-
-  .industry-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .industry-card p {
-    font-size: 0.9rem;
-  }
-
-  .read-more {
-    font-size: 1.2rem;
-  }
+ 
 }

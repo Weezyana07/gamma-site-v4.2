@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import heroImage from "../assets/images/bgService.jpg";
 import overlayImage from "../assets/images/home.jpg";
-//import "./HomePage.css";
+import "./HomePage.css";
 
 // Lazy loading components for performance optimization
 const Industries = lazy(() => import("../components/Industries"));
@@ -42,40 +42,42 @@ const Home = () => {
         <div
           className="relative w-full h-[70vh] bg-cover bg-center flex flex-col justify-center px-16"
           style={{
-            backgroundImage: `url(${overlayImage})`, // ✅ Overlay Image
+            backgroundImage: `url(${overlayImage})`, 
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           {/* Left-Aligned Hero Text */}
-          <div className="relative z-10 max-w-7xl mx-auto">
-            <h1 className="text-6xl font-bold text-left text-[#1d70b6] leading-tight">
-              Unlocking Potential:
-            </h1>
-            <h2 className="text-3xl mt-4 text-left leading-snug">
-              Transforming Businesses <br /> with Technology and Insight.
-            </h2>
-          </div>
+          <div className="welcome text-left px-6 md:px-16">
+  <h1 className="hero-title text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+    Unlocking Potential:
+  </h1>
+  <h2 className="hero-subtitle text-xl md:text-3xl lg:text-4xl font-semibold leading-snug mt-2">
+    Transforming Businesses <br className="hidden sm:inline" /> 
+    with Technology and Insight.
+  </h2>
+</div>
+
         </div>
 
         {/* 30vh Section for Paragraph (Below Overlay) */}
-        <div className="relative h-[30vh] flex items-center justify-center text-center px-16">
-          <p className="text-lg text-gray-900 max-w-4xl">
-            At <strong>GAMMA SPECTRE</strong>, we specialize in providing
-            comprehensive consultancy, information technology, and general
-            solutions tailored to meet the diverse needs of our clients. With a
-            deep understanding of industry trends and technological
-            advancements, our team of experts collaborates closely with
-            businesses to unlock their full potential and drive sustainable
-            growth.
-          </p>
+        <div className="relative h-auto py-8 flex items-center justify-center text-center px-4 sm:px-8 md:px-16">
+  <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-900 max-w-4xl leading-relaxed">
+    At <strong>GAMMA SPECTRE</strong>, we specialize in providing
+    comprehensive consultancy, information technology, and general
+    solutions tailored to meet the diverse needs of our clients. With a
+    deep understanding of industry trends and technological
+    advancements, our team of experts collaborates closely with
+    businesses to unlock their full potential and drive sustainable
+    growth.
+  </p>
         </div>
       </section>
 
       {/* Lazy Loaded Sections */}
       <Suspense fallback={<div className="text-center py-10">Loading...</div>}>
-        <Industries />
         <Services />
+        <Industries />
         <Projects />
         <Clientele />
         <Contact />
