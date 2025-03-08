@@ -1,39 +1,56 @@
 import React, { Suspense } from "react";
+import "./Industries.css";
+import consultancy from "../assets/images/Consulting.png";
+import information from "../assets/images/information.png";
+import manufacturing from "../assets/images/manufacturing.png";
+import construction from "../assets/images/Construction.png";
+import general from "../assets/images/General.png";
 
 // Lazy load images to improve performance
 const industryImages = {
-  consultancy: "../assets/images/Consulting.png",
-  information: "../assets/images/information.png",
-  manufacturing: "../assets/images/manufacturing.png",
-  construction: "../assets/images/Construction.png",
-  general: "../assets/images/General.png",
+  consultancy,
+  information,
+  manufacturing,
+  construction,
+  general,
 };
 
 const industries = [
   {
     title: "Consultancy",
-    description: "Expert consultancy services tailored to business needs.",
+    description:
+    "We offer specialised consultancy services to a wide range of industries, providing expert guidance and solutions for diverse challenges.",
     imgKey: "consultancy",
+    link: "/services/consultancy",
   },
   {
     title: "Information Technology",
-    description: "Advanced IT solutions for business efficiency.",
+    description:
+    "Our IT division excels in delivering cutting-edge technology solutions, including network infrastructure, software development, and telecom services.",
     imgKey: "information",
+    link: "/services/it",
+
   },
   {
     title: "Manufacturing",
-    description: "Sustainable and cost-effective manufacturing solutions.",
+    description:
+    "Our construction division is dedicated to the creation of quality infrastructures, from residential and commercial buildings to civil engineering projects.",
     imgKey: "manufacturing",
+    link: "/services/manufacturing",
   },
   {
     title: "Construction",
-    description: "High-quality construction services with expert oversight.",
+    description:
+    "We offer specialised consultancy services to a wide range of industries, providing expert guidance and solutions for diverse challenges.",
     imgKey: "construction",
+    link: "/services/construction",
   },
   {
     title: "General Contracts",
-    description: "Comprehensive contract management and execution.",
+    description:
+    "Our IT division excels in delivering cutting-edge technology solutions, including network infrastructure, software development, and telecom services.",
     imgKey: "general",
+    link: "/services/general",
   },
 ];
 
@@ -52,11 +69,11 @@ const Industries = () => {
             <div className="text-center py-10">Loading industries...</div>
           }
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 ">
             {industries.map((industry, index) => (
               <div
                 key={index}
-                className="bg-white shadow-lg rounded-lg p-6 text-center"
+                className="bg-white shadow-lg rounded-lg p-6 text-center industry-card"
               >
                 <img
                   src={industryImages[industry.imgKey]}
@@ -66,6 +83,9 @@ const Industries = () => {
                 />
                 <h3 className="text-xl font-semibold mt-4">{industry.title}</h3>
                 <p className="text-gray-600 mt-2">{industry.description}</p>
+                <a href={industry.link} className="read-more">
+                READ MORE
+              </a>
               </div>
             ))}
           </div>

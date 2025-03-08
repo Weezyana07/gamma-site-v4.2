@@ -1,33 +1,40 @@
 import React from "react";
+import "./Services.css";
+
+// Import images properly
+import expert from "../assets/images/expert.svg";
+import innovation from "../assets/images/innovation.svg";
+import support from "../assets/images/support.svg";
+import partnership from "../assets/images/partnership.svg";
 
 const serviceData = [
   {
     title: "Expert Guidance",
-    img: "../assets/images/expert.svg",
-    desc: "Tailored, data-driven insights and strategic direction.",
+    img: expert,
+    desc: "Benefit from tailored, data-driven insights and strategic direction offered by our seasoned consultants, ensuring personalized solutions that align with your objectives.",
   },
   {
     title: "Innovative Solutions",
-    img: "../assets/images/innovation.svg",
-    desc: "Cutting-edge technology to streamline your business operations.",
+    img: innovation,
+    desc: "Harness technology for growth with innovative solutions tailored to your business. Build trust through collaboration, transparency, and open communication for success.",
   },
   {
-    title: "24/7 Support",
-    img: "../assets/images/support.svg",
-    desc: "Round-the-clock support to keep your business running smoothly.",
+    title: "Reliable Support",
+    img: support,
+    desc: "Count on our unwavering commitment to provide prompt and dependable assistance at every stage of your projects, ensuring smooth progress and successful outcomes.",
   },
   {
     title: "Strategic Partnerships",
-    img: "../assets/images/partnership.svg",
-    desc: "Collaboration with industry leaders for unmatched service quality.",
+    img: partnership,
+    desc: "Forge a strategic alliance grounded in trust and transparency, where mutual success is prioritized through open communication and efforts towards excellence.",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-white-100 py-16">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold">Our Services</h2>
+        <h2 aria-label="Services We Provide" className="text-3xl font-bold">What you can expect from us</h2>
         <p className="text-lg text-gray-700 mt-2">
           Discover how we can elevate your business.
         </p>
@@ -41,7 +48,7 @@ const Services = () => {
               <img
                 src={service.img}
                 alt={service.title}
-                className="mx-auto h-24 w-24 object-contain"
+                className="service-image"
                 loading="lazy"
               />
               <h3 className="text-xl font-semibold mt-4">{service.title}</h3>
