@@ -4,14 +4,14 @@ import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+// Lazy loading service section
+const ServiceSection = lazy(() => import("../components/ServiceSection"));
+
 import consul from "../assets/images/consul.jpg";
 import telecom from "../assets/images/telecom.jpg";
 import cons from "../assets/images/cons.jpg";
 import manufact from "../assets/images/manufact.webp";
 import contract from "../assets/images/contract.webp";
-
-// Lazy loading service section
-const ServiceSection = lazy(() => import("../components/ServiceSection"));
 
 // Service data array for dynamic rendering
 const services = [

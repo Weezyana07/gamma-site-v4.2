@@ -48,9 +48,11 @@ const Home = () => {
           }}
         >
           {/* Left-Aligned Hero Text */}
-          <div className="welcome ">
-            <h1 className="hero-title ">Unlocking Potential:</h1>
-            <h2 className="hero-subtitle ">
+          <div className="welcome text-left px-6 md:px-16">
+            <h1 className="hero-title text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              Unlocking Potential:
+            </h1>
+            <h2 className="hero-subtitle text-xl md:text-3xl lg:text-4xl font-semibold leading-snug mt-2">
               Transforming Businesses <br className="hidden sm:inline" />
               with Technology and Insight.
             </h2>

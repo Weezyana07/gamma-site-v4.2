@@ -1,5 +1,5 @@
 .welcome {
-  max-width: 660px;
+  max-width: 695px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -19,10 +19,6 @@
 
 .hero-subtitle {
   font-size: 3.3rem;
-}
-
-strong {
-  color: #1d70b6;
 }
 
 /* Breakpoint: Up to 480px (mobile phones) */

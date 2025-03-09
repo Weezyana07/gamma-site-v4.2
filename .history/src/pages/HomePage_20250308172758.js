@@ -51,8 +51,7 @@ const Home = () => {
           <div className="welcome ">
             <h1 className="hero-title ">Unlocking Potential:</h1>
             <h2 className="hero-subtitle ">
-              Transforming Businesses <br className="hidden sm:inline" />
-              with Technology and Insight.
+              Transforming Businesses with Technology and Insight.
             </h2>
           </div>
         </div>

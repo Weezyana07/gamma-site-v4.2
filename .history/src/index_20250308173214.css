@@ -21,6 +21,9 @@ code {
     monospace;
 }
 
+strong {
+  @apply text-600;
+}
 *,
 *::before *::after {
   margin: 0;

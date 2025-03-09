@@ -21,10 +21,6 @@
   font-size: 3.3rem;
 }
 
-strong {
-  color: #1d70b6;
-}
-
 /* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
   .welcome {
